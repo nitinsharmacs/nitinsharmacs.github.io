@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>Fullsafe Manual</title>
+</head>
+
+<body>
+    <h1 id="fullsafe_top">FULLSAFE</h1>
+
+    <p><a href="#name">NAME</a> | <a href="#synopsis">SYNOPSIS</a> | <a href="#description">DESCRIPTION</a> | <a
+            href="#commands">COMMANDS</a> | <a href="#setup&configurations">SETUP & CONFIGURATIONS</a> | <a
+            href="#examples">EXAMPLES</a> | <a href="#exitStatus">EXIT STATUS</a> | <a href="#seeAlso">SEE ALSO</a> | <a
+            href="#author">AUTHOR</a></p>
+    <h2 id="name">NAME</h2>
+    <p>fullsafe - create and manage backups and versions.</p>
+
+    <h2 id="synopsis">SYNOPSIS</h2>
+    <p>fullsafe &lt;command&gt; [options] args</p>
+
+    <h2 id="description">DESCRIPTION</h2>
+    <p>fullsafe is a backup tool that helps to create and manage backups. It provides some sub-commands to deal with
+        backups. <br /> It stores all the backup files in the respective directories in the central location. This
+        central location resides in home directory that can be found by name <em>.fullsafe_backups</em>.</p>
+
+    <h2 id="commands">COMMANDS</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Command</th>
+                <th>Description</th>
+                <th>Options</th>
+                <th>Syntax</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>init</td>
+                <td>Initialise the fullsafe on the directory.</td>
+                <td>-</td>
+                <td>fullsafe init &lt;directory files&gt;</td>
+            </tr>
+            <tr>
+                <td>backup</td>
+                <td>Create backup</td>
+                <td>[-z zip archieve]</td>
+                <td>fullsafe backup [-z]</td>
+            </tr>
+            <tr>
+                <td>restore</td>
+                <td>Restore backup</td>
+                <td>-</td>
+                <td>fullsafe restore &lt;backup file&gt; &lt;destination&gt;</td>
+            </tr>
+            <tr>
+                <td>list</td>
+                <td>List backups for the directory</td>
+                <td>-</td>
+                <td>fullsafe list</td>
+            </tr>
+            <tr>
+                <td>delete</td>
+                <td>Delete backup</td>
+                <td>-</td>
+                <td>fullsafe delete &lt;backup file&gt;</td>
+            </tr>
+            <tr>
+                <td>content</td>
+                <td>Show contents in the backup files</td>
+                <td>-</td>
+                <td>fullsafe content &lt;backup file/s&gt;</td>
+            </tr>
+            <tr>
+                <td>update</td>
+                <td>Update fullsafe configurations</td>
+                <td>
+                    <p>[-af add files] <br /> [-rm remove files] <br /> [-d rename backup directory] <br /> [-v change
+                        version]</p>
+                </td>
+                <td>
+                    <p>fullsafe update -af &lt;directory files&gt;<br /> fullsafe update -rm &lt;files&gt;<br />fullsafe
+                        update -d &lt;new directory name&gt; <br />fullsafe update -v &lt;new version&gt;</p>
+                </td>
+            </tr>
+            <tr>
+                <td>--help</td>
+                <td>Display fullsafe usages and commands</td>
+                <td>-</td>
+                <td>fullsafe --help</td>
+            </tr>
+            <tr>
+                <td>manual</td>
+                <td>Open fullsafe manual in the browser</td>
+                <td>-</td>
+                <td>fullsafe manual</td>
+            </tr>
+            <tr>
+                <td>--version</td>
+                <td>Display fullsafe version</td>
+                <td>-</td>
+                <td>fullsafe --version</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="setup&configurations">SETUP & CONFIGURATIONS</h2>
+    <p>Before creating backups, fullsafe needs to be initialized on the directory. Every initialisation is separate for
+        different directories. Post initialisation, backup can be created. <br />fullsafe configurations are stored in
+        the <em>.fullsafe.config</em> file in the directory. If this file is absent, fullsafe needs to be reinitialised.
+    </p>
+
+    <h2 id="examples">EXAMPLES</h2>
+
+    <p>
+        Below are the some examples :
+    <pre>   $ fullsafe init *</pre>
+    <pre>   $ fullsafe backup</pre>
+    <pre>   $ fullsafe restore 20211207_092102_v20.tar.gz myBackup</pre>
+    <pre>   $ fullsafe delete 20211207_092102_v20.tar.gz</pre>
+    Changing the backup directory name
+    <pre>   $ fullsafe update -d newBackupDirName</pre>
+    </p>
+
+    <h2 id="exitStatus">EXIT STATUS</h2>
+    <p>fullsafe returns following exit status :
+    <ul>
+        <li>0 for success</li>
+        <li>3 for some functional error</li>
+        <li>4 if backup file or any dependency is missing</li>
+        <li>5 if there is wrong input from the user</li>
+    </ul>
+    </p>
+
+    <h2 id="seeAlso">SEE ALSO</h2>
+    <p><a href="https://man7.org/linux/man-pages/man1/tar.1.html" target="_blank">tar(1)</a>, <a
+            href="https://man7.org/linux/man-pages/man1/ls.1.html" target="=" _blank>ls(1)</a></p>
+    <h2 id="author">AUTHOR</h2>
+    <p>Nitin (<a href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            target="_blank">nitin123narayan123@gmail.com</a>)</p>
+
+    <a href="#fullsafe_top">Goto top</a>
+</body>
+
+</html>
