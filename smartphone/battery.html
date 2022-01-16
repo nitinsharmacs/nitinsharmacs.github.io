@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <style>
+        .battery {
+            width: 80px;
+            background-color: cyan;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .battery span {
+            display: inline-block;
+        }
+
+        .battery-icon {
+            width: 20px;
+            height: 10px;
+            margin-left: 5px;
+            border: 1px solid gray;
+            padding: 1px;
+        }
+
+        .battery-percentage-bar {
+            height: 100%;
+            width: 50%;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="battery">
+        <span class="battery-percentage">50%</span>
+        <div class="battery-icon">
+            <span class="battery-percentage-bar"></span>
+        </div>
+    </div>
+</body>
+
+</html>
