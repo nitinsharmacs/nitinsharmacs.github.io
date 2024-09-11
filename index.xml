@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>bitPhile</title>
+      <link>https://nitinsharmacs.github.io</link>
+      <description>Last 10 notes on bitPhile</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>docker-storage-driver</title>
+    <link>https://nitinsharmacs.github.io/blogs/tech/docker/docker-storage-driver</link>
+    <guid>https://nitinsharmacs.github.io/blogs/tech/docker/docker-storage-driver</guid>
+    <description></description>
+    <pubDate>Tue, 10 Sep 2024 12:41:01 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://nitinsharmacs.github.io/</link>
+    <guid>https://nitinsharmacs.github.io/</guid>
+    <description>This is the home page for bitPhile. You will find most of the informative content here.</description>
+    <pubDate>Tue, 10 Sep 2024 11:05:04 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://nitinsharmacs.github.io/blogs/</link>
+    <guid>https://nitinsharmacs.github.io/blogs/</guid>
+    <description>This is the home page for bitPhile. You will find most of the informative content here.</description>
+    <pubDate>Tue, 10 Sep 2024 09:25:34 GMT</pubDate>
+  </item><item>
+    <title>jax</title>
+    <link>https://nitinsharmacs.github.io/notes/jax/jax</link>
+    <guid>https://nitinsharmacs.github.io/notes/jax/jax</guid>
+    <description>It uses MLIR.</description>
+    <pubDate>Fri, 06 Sep 2024 12:06:51 GMT</pubDate>
+  </item><item>
+    <title>xarray-cuda</title>
+    <link>https://nitinsharmacs.github.io/notes/xarray-cuda/xarray-cuda</link>
+    <guid>https://nitinsharmacs.github.io/notes/xarray-cuda/xarray-cuda</guid>
+    <description>Observations Cuda Array works same as numpy array. However, some of the functionality where xarray more specific to numpy array, operations on cuda arrays give error.</description>
+    <pubDate>Thu, 05 Sep 2024 13:03:24 GMT</pubDate>
+  </item><item>
+    <title>apply_ufunc-dask-vectorize</title>
+    <link>https://nitinsharmacs.github.io/notes/xarray/apply_ufunc-dask-vectorize</link>
+    <guid>https://nitinsharmacs.github.io/notes/xarray/apply_ufunc-dask-vectorize</guid>
+    <description>Vectorize Dask Xarray Vectorization for dask xarray works only when we give dask=parallelized parameter. From the note we saw that dask.array.apply_gufunc provides chunk blocks to custom function.</description>
+    <pubDate>Wed, 04 Sep 2024 13:59:35 GMT</pubDate>
+  </item><item>
+    <title>apply_ufunc-dask</title>
+    <link>https://nitinsharmacs.github.io/notes/xarray/apply_ufunc-dask</link>
+    <guid>https://nitinsharmacs.github.io/notes/xarray/apply_ufunc-dask</guid>
+    <description>apply_ufunc with dask arrays apply_ufunc handles dask xarray in same manner as it does with numpy xarray. However, it requires an dask argument` to work with dask xarrays.</description>
+    <pubDate>Wed, 04 Sep 2024 12:49:48 GMT</pubDate>
+  </item><item>
+    <title>xarray-with-dask</title>
+    <link>https://nitinsharmacs.github.io/notes/xarray/xarray-with-dask</link>
+    <guid>https://nitinsharmacs.github.io/notes/xarray/xarray-with-dask</guid>
+    <description>Xarray with Dask Xarray is numpy array with metadata and accessing the array with metadata. Xarray does the computations in memory so has the limitation on data size.</description>
+    <pubDate>Wed, 04 Sep 2024 10:20:57 GMT</pubDate>
+  </item><item>
+    <title>loop-dimensions</title>
+    <link>https://nitinsharmacs.github.io/notes/xarray/loop-dimensions</link>
+    <guid>https://nitinsharmacs.github.io/notes/xarray/loop-dimensions</guid>
+    <description>Loop Dimensions Functions that performs operations on data with core-dimensions and taking axis as argument, can be easily used with apply_ufunc. However, functions which don’t take axis argument and need to work on core-dimensions need loop dimensions.</description>
+    <pubDate>Tue, 03 Sep 2024 07:26:18 GMT</pubDate>
+  </item><item>
+    <title>resources</title>
+    <link>https://nitinsharmacs.github.io/notes/linux/resources</link>
+    <guid>https://nitinsharmacs.github.io/notes/linux/resources</guid>
+    <description> www.actualtechmedia.com/wp-content/uploads/2017/12/CUMULUS-NETWORKS-Linux101.pdf .</description>
+    <pubDate>Mon, 02 Sep 2024 09:28:45 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
