@@ -1,7 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://nitinsharmacs.github.io/blogs/</loc>
-    <lastmod>2024-09-10T09:25:34.254Z</lastmod>
-  </url><url>
     <loc>https://nitinsharmacs.github.io/blogs/tech/docker/docker-compose-todo-app</loc>
     <lastmod>2023-04-02T07:06:36.000Z</lastmod>
   </url><url>
@@ -27,212 +24,410 @@
     <lastmod>2023-08-15T08:19:50.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/</loc>
-    <lastmod>2024-09-10T11:05:04.766Z</lastmod>
+    <lastmod>2024-09-12T06:27:11.436Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/Asyc-Server</loc>
+    <loc>https://nitinsharmacs.github.io/notes/logics/browser-tabs/fol</loc>
+    <lastmod>2024-04-01T09:38:51.819Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/discussions/kkr-meetings</loc>
+    <lastmod>2023-09-27T07:03:58.253Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/domain-reasoning</loc>
+    <lastmod>2023-08-29T13:10:18.652Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/examples/entailment-using-language-of-logic</loc>
+    <lastmod>2023-09-07T13:11:44.509Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/examples/proving-modus-ponens-resolution</loc>
+    <lastmod>2023-10-19T03:40:49.125Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/exercises/convert-formula</loc>
+    <lastmod>2023-09-13T12:33:03.785Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/exercises/find-tautology-of-formula</loc>
+    <lastmod>2023-09-08T11:53:44.577Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/first-order-logic/first-order-logic</loc>
+    <lastmod>2023-10-19T12:54:05.711Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/first-order-logic/interpretation</loc>
+    <lastmod>2023-11-01T04:13:42.817Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/first-order-logic/quantifiers</loc>
+    <lastmod>2023-10-26T04:18:40.635Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/first-order-logic/rules-of-inference</loc>
+    <lastmod>2023-10-26T12:49:16.178Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/first-order-logic/rules-of-substitution</loc>
+    <lastmod>2023-10-26T13:04:10.330Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/first-order-logic/syntax</loc>
+    <lastmod>2023-10-19T13:39:02.617Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/formal-language</loc>
+    <lastmod>2023-09-05T12:21:26.239Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/hierarchies-of-structured-knowledge</loc>
+    <lastmod>2023-08-29T13:23:47.674Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/inference-engine/backward-chaining</loc>
+    <lastmod>2023-09-28T05:01:44.092Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/introduction</loc>
+    <lastmod>2023-08-22T13:38:54.325Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/left-sessions</loc>
+    <lastmod>2023-09-08T12:44:30.889Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/logic-and-representation</loc>
+    <lastmod>2023-08-31T13:01:08.003Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/logic/formal-logic</loc>
+    <lastmod>2023-09-05T12:34:33.849Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/logic/logic</loc>
+    <lastmod>2023-09-05T13:16:22.211Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/new-note</loc>
+    <lastmod>2023-10-26T12:50:31.785Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/potential-ideas</loc>
+    <lastmod>2023-09-27T06:51:38.956Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/ask</loc>
+    <lastmod>2023-09-24T07:11:44.853Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/clausal-form</loc>
+    <lastmod>2023-10-18T06:01:39.522Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/conditional-proofs</loc>
+    <lastmod>2023-09-27T12:34:44.801Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/conditional-wff</loc>
+    <lastmod>2023-09-27T12:35:23.759Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/contingency</loc>
+    <lastmod>2023-09-24T07:02:51.124Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/contradiction</loc>
+    <lastmod>2023-09-24T06:39:57.406Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/deduction-theorem</loc>
+    <lastmod>2023-09-26T12:32:13.521Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/definite-clauses</loc>
+    <lastmod>2023-09-24T11:02:01.009Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/direct-deductions</loc>
+    <lastmod>2023-09-27T04:37:02.857Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/forward-reasoning</loc>
+    <lastmod>2023-09-25T13:36:59.476Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/frege-axioms</loc>
+    <lastmod>2023-09-19T10:49:54.333Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/horn-clauses</loc>
+    <lastmod>2023-09-24T11:06:08.853Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/interpretation-function</loc>
+    <lastmod>2023-09-22T13:26:03.627Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/limitations</loc>
+    <lastmod>2023-10-19T13:10:10.316Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/model-checking</loc>
+    <lastmod>2023-09-21T04:21:58.190Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/model</loc>
+    <lastmod>2023-09-22T13:28:20.724Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/models</loc>
+    <lastmod>2023-09-22T13:33:33.777Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/proof-by-contradiction</loc>
+    <lastmod>2023-09-21T04:21:00.973Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/propositional-logic-syntax</loc>
+    <lastmod>2023-09-19T11:11:10.975Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/propositional-logic</loc>
+    <lastmod>2023-09-19T10:38:45.021Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/rules-of-inference/Modus-tollens</loc>
+    <lastmod>2023-09-08T12:33:26.238Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/rules-of-inference/abduction</loc>
+    <lastmod>2023-09-08T11:46:25.615Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/rules-of-inference/modus-ponens</loc>
+    <lastmod>2023-09-07T13:26:39.966Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/rules-of-inference/resolution-method</loc>
+    <lastmod>2023-10-16T13:01:47.272Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/rules-of-inference/substitution</loc>
+    <lastmod>2023-09-08T12:42:06.803Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/satisfiability</loc>
+    <lastmod>2023-09-24T07:31:38.141Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/tableau-method</loc>
+    <lastmod>2023-10-10T13:16:39.414Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/propositional-logic/tell</loc>
+    <lastmod>2023-09-24T07:06:37.786Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/questions</loc>
+    <lastmod>2023-09-22T16:07:16.092Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/syllogism</loc>
+    <lastmod>2023-09-05T12:30:53.689Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/symbols-and-thought/reasoning</loc>
+    <lastmod>2023-09-04T13:20:39.718Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/symbols-and-thought/representation</loc>
+    <lastmod>2023-09-04T13:16:48.806Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/symbols</loc>
+    <lastmod>2023-09-08T11:56:41.363Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/taxonomies</loc>
+    <lastmod>2023-08-29T13:42:33.519Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/antecedent-consequent</loc>
+    <lastmod>2023-09-19T09:52:26.351Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/connectives</loc>
+    <lastmod>2023-09-07T12:40:22.244Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/dag</loc>
+    <lastmod>2023-09-25T13:33:02.056Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/entailment</loc>
+    <lastmod>2023-09-05T13:45:57.362Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/premise</loc>
+    <lastmod>2023-09-05T13:26:52.446Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/proof</loc>
+    <lastmod>2023-09-06T13:11:42.609Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/proposition</loc>
+    <lastmod>2023-09-05T13:27:02.486Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/soundness-and-completeness</loc>
+    <lastmod>2023-09-18T12:41:44.413Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/logics/terminology/tautology</loc>
+    <lastmod>2023-09-15T12:03:31.615Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/Asyc-Server</loc>
     <lastmod>2023-04-14T04:53:14.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/Async-IO</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/Async-IO</loc>
     <lastmod>2023-04-14T04:52:56.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/Pandas</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/Pandas</loc>
     <lastmod>2023-04-14T04:53:02.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/Python</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/Python</loc>
     <lastmod>2024-04-22T07:02:13.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/References</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/References</loc>
     <lastmod>2023-04-14T04:52:54.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/asyncio</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/asyncio</loc>
     <lastmod>2023-04-09T06:52:25.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/dis</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/dis</loc>
     <lastmod>2024-04-20T07:13:49.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/event-loop</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/event-loop</loc>
     <lastmod>2023-04-09T06:59:19.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/executor</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/executor</loc>
     <lastmod>2023-04-09T06:02:15.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/generators</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/generators</loc>
     <lastmod>2023-04-06T12:41:21.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/gil</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/gil</loc>
     <lastmod>2024-04-21T06:43:32.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/interned-objects</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/interned-objects</loc>
     <lastmod>2024-04-22T06:47:01.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/itertools</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/itertools</loc>
     <lastmod>2024-04-15T09:53:34.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/logging/basicConfig</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/logging/basicConfig</loc>
     <lastmod>2024-07-14T17:24:25.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/logging/logrecord-attributes</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/logging/logrecord-attributes</loc>
     <lastmod>2024-07-14T17:28:34.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/memory-management</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/memory-management</loc>
     <lastmod>2024-04-22T07:02:13.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/multi-threading</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/multi-threading</loc>
     <lastmod>2024-04-20T04:44:04.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/mutex-lock</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/mutex-lock</loc>
     <lastmod>2024-04-20T10:12:21.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/names-not-variables</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/names-not-variables</loc>
     <lastmod>2024-04-22T06:40:42.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/opencv-python</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/opencv-python</loc>
     <lastmod>2023-04-14T04:52:56.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/package</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/package</loc>
     <lastmod>2024-04-26T07:27:22.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/pickle</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/pickle</loc>
     <lastmod>2024-04-15T07:11:52.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/poetry</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/poetry</loc>
     <lastmod>2023-04-14T04:52:56.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/pyobject</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/pyobject</loc>
     <lastmod>2024-04-22T06:42:27.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/python-bindings/marshalling</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/python-bindings/marshalling</loc>
     <lastmod>2024-05-22T11:54:19.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/python-bindings/using-ctype</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/python-bindings/using-ctype</loc>
     <lastmod>2024-05-22T12:40:54.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/python-loops</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/python-loops</loc>
     <lastmod>2024-08-21T05:02:03.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/CPython/re</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/re</loc>
     <lastmod>2024-04-19T07:30:06.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/aws/aws-cli-setup-sso</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/aws/aws-cli-setup-sso</loc>
     <lastmod>2024-02-27T10:17:33.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/aws/email-notification-lambda</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/aws/email-notification-lambda</loc>
     <lastmod>2024-02-14T07:27:57.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/chunking</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/chunking</loc>
     <lastmod>2024-06-13T10:38:32.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/compute-function</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/compute-function</loc>
     <lastmod>2024-05-21T09:03:34.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/dask-delayed</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/dask-delayed</loc>
     <lastmod>2024-05-09T10:56:58.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/dask-graph</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/dask-graph</loc>
     <lastmod>2024-05-21T07:32:03.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/dask-so-far</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/dask-so-far</loc>
     <lastmod>2024-05-14T09:53:52.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/get-method</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/get-method</loc>
     <lastmod>2024-05-21T07:34:49.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/local-cluster</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/local-cluster</loc>
     <lastmod>2024-05-21T05:52:56.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/map-blocks</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/map-blocks</loc>
     <lastmod>2024-05-22T10:02:14.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/dask/scheduler</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/scheduler</loc>
     <lastmod>2024-05-21T05:25:55.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/elk-stack</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/elk-stack</loc>
     <lastmod>2024-07-09T13:56:38.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/environment-modules/modules</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/environment-modules/modules</loc>
     <lastmod>2024-08-29T10:03:57.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/gitlab/ci</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/gitlab/ci</loc>
     <lastmod>2024-06-19T11:42:58.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/googleapis/delete-rows</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/googleapis/delete-rows</loc>
     <lastmod>2024-03-18T12:09:21.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/jax/jax</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/jax/jax</loc>
     <lastmod>2024-09-06T12:06:51.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/linux/accessing-usb-drives</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/linux/accessing-usb-drives</loc>
     <lastmod>2024-03-27T09:49:27.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/linux/automount-drives</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/linux/automount-drives</loc>
     <lastmod>2024-03-27T12:22:27.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/linux/resources</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/linux/resources</loc>
     <lastmod>2024-09-02T09:28:45.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/broadcasting</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/broadcasting</loc>
     <lastmod>2024-08-23T10:56:31.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/indexing</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/indexing</loc>
     <lastmod>2024-08-27T05:35:07.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/internal-organization</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/internal-organization</loc>
     <lastmod>2024-04-30T09:13:42.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/interp</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/interp</loc>
     <lastmod>2024-08-28T05:59:31.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/newaxis</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/newaxis</loc>
     <lastmod>2024-08-27T13:31:06.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/pad</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/pad</loc>
     <lastmod>2024-05-09T10:44:30.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/see-also</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/see-also</loc>
     <lastmod>2024-08-23T12:29:04.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/transpose</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/transpose</loc>
     <lastmod>2024-06-22T09:59:34.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/vectorize</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/vectorize</loc>
     <lastmod>2024-08-21T09:17:50.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/numpy/view</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/view</loc>
     <lastmod>2024-04-30T09:20:08.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/singularity/container-fs</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/singularity/container-fs</loc>
     <lastmod>2024-08-23T05:47:40.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/singularity/definition-file-sections</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/singularity/definition-file-sections</loc>
     <lastmod>2024-08-23T09:32:49.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/singularity/defintion-file-header</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/singularity/defintion-file-header</loc>
     <lastmod>2024-08-23T05:44:56.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray-cuda/xarray-cuda</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray-cuda/xarray-cuda</loc>
     <lastmod>2024-09-05T13:03:24.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/apply_ufunc-dask-vectorize</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask-vectorize</loc>
     <lastmod>2024-09-04T13:59:35.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/apply_ufunc-dask</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask</loc>
     <lastmod>2024-09-04T12:49:48.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/apply_ufunc</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc</loc>
     <lastmod>2024-08-27T11:53:55.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/core-dimensions</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/core-dimensions</loc>
     <lastmod>2024-08-28T03:48:52.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/loop-dimensions</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/loop-dimensions</loc>
     <lastmod>2024-09-03T07:26:18.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/map_blocks</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/map_blocks</loc>
     <lastmod>2024-09-11T14:20:18.207Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/xarray-so-far</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-so-far</loc>
     <lastmod>2024-05-01T08:35:52.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/xarray/xarray-with-dask</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-with-dask</loc>
     <lastmod>2024-09-04T10:20:57.000Z</lastmod>
   </url></urlset>
