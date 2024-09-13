@@ -7,7 +7,10 @@ function clean_public() {
 }
 
 function get_build_id() {
-		echo "build 1"
+		id=$(cat .build_version)
+		new_id=$((id+1))
+	
+		echo $new_id | tee .build_version
 }
 
 function build() {
@@ -18,9 +21,9 @@ function build() {
 
 
 function publish() {
+		id=$(get_build_id)
 		cd ./public
 		git add .
-		id=$(get_build_id)
 		git commit -m "build - $id"
 		git push origin gh-pages
 }
