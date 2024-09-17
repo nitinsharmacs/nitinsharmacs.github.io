@@ -1,3 +1,5 @@
 
-This is the home page for bitPhile. You will find most of the informative content here.
 
+## `bitPhile`
+
+A knowledge repository where I add my daily notes on tech I read and blogs I create, and other content.

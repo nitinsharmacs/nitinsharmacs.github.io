@@ -6,12 +6,6 @@ function clean_public() {
 		rm -rf ./public/*
 }
 
-function get_build_id() {
-		id=$(cat .build_version)
-		new_id=$((id+1))
-	
-		echo $new_id | tee .build_version
-}
 
 function build() {
 		npx quartz build -v --concurrency 4 --output ./build
@@ -21,23 +15,24 @@ function build() {
 
 
 function publish() {
-		id=$(get_build_id)
+		local commit_msg="$1"
 		cd ./public
 		git add .
-		git commit -m "build - $id"
+		git commit -m "$1"
 		git push origin gh-pages
 }
 
 
 function main() {
+		local bulid_msg="$1"
 
 		echo "Cleaning public directory" && \
 		clean_public && \
 		echo "Creating build" && \
 		build && \
 		echo "Creating git commit and pushing the changes" && \
-		publish
+		publish "$1"
 }
 
-main
+main "$1"
 
