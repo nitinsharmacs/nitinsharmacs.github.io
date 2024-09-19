@@ -455,8 +455,11 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/environment-modules/modules</loc>
     <lastmod>2024-08-29T10:03:57.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/tech/gitlab/ci</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/git/gitlab-ci</loc>
     <lastmod>2024-06-19T11:42:58.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</loc>
+    <lastmod>2023-04-14T04:52:06.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/googleapis/delete-rows</loc>
     <lastmod>2024-03-18T12:09:21.000Z</lastmod>
@@ -476,11 +479,20 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/broadcasting</loc>
     <lastmod>2024-08-23T10:56:31.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/comparisons</loc>
+    <lastmod>2024-09-18T07:10:20.868Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/datatype-sizes</loc>
+    <lastmod>2024-09-19T15:06:46.228Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/datatypes</loc>
     <lastmod>2024-09-17T12:53:13.801Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/fancy-indexing</loc>
     <lastmod>2024-09-17T14:12:43.564Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/flatting</loc>
+    <lastmod>2024-09-18T14:29:26.386Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/indexing</loc>
     <lastmod>2024-08-27T05:35:07.000Z</lastmod>
@@ -490,6 +502,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/interp</loc>
     <lastmod>2024-08-28T05:59:31.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/masked-arrays</loc>
+    <lastmod>2024-09-19T15:49:47.057Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/newaxis</loc>
     <lastmod>2024-08-27T13:31:06.000Z</lastmod>
