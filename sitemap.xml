@@ -332,6 +332,42 @@
     <loc>https://nitinsharmacs.github.io/notes/operating-systems/what-is-os</loc>
     <lastmod>2023-03-30T04:44:38.270Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/deconvolution/casa-deconvolution</loc>
+    <lastmod>2024-09-11T06:09:22.117Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/deconvolution/clean-algorithms</loc>
+    <lastmod>2024-09-11T06:15:45.087Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/dirty-image</loc>
+    <lastmod>2024-08-26T03:16:20.673Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/dumps</loc>
+    <lastmod>2024-06-06T07:32:28.885Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/1-spatial-frequency/spatial-frequency-notebook</loc>
+    <lastmod>2024-09-26T18:24:58.793Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/1-spatial-frequency/spatial-frequency</loc>
+    <lastmod>2024-09-19T17:42:03.279Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/1-spatial-frequency/tutorial</loc>
+    <lastmod>2024-08-30T07:04:46.929Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/2-sampling-and-psf/sampling-and-psf</loc>
+    <lastmod>2024-09-25T17:46:36.671Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/model-prediction</loc>
+    <lastmod>2024-07-02T06:58:26.170Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/radio-imaging-hands-on</loc>
+    <lastmod>2024-05-27T05:09:59.137Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/session-calibration</loc>
+    <lastmod>2024-05-27T10:01:04.710Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/terminology</loc>
+    <lastmod>2024-04-05T06:33:25.680Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/CPython/Asyc-Server</loc>
     <lastmod>2023-04-14T04:53:14.000Z</lastmod>
   </url><url>
@@ -476,6 +512,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/linux/resources</loc>
     <lastmod>2024-09-02T09:28:45.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/__array_interface__</loc>
+    <lastmod>2024-09-25T04:19:13.828Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/broadcasting</loc>
     <lastmod>2024-08-23T10:56:31.000Z</lastmod>
   </url><url>
@@ -506,11 +545,32 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/masked-arrays</loc>
     <lastmod>2024-09-19T15:49:47.057Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/ndarray-block-of-memory</loc>
+    <lastmod>2024-09-25T04:15:42.823Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/newaxis</loc>
     <lastmod>2024-08-27T13:31:06.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/numpy.polynomials</loc>
+    <lastmod>2024-09-26T18:32:59.697Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</loc>
+    <lastmod>2024-09-26T18:32:59.960Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/numpy-flags</loc>
+    <lastmod>2024-09-26T03:58:29.359Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/numpy-log</loc>
+    <lastmod>2024-09-24T05:41:11.692Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/pad</loc>
     <lastmod>2024-05-09T10:44:30.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/polynomials/poly1d</loc>
+    <lastmod>2024-09-24T13:08:47.844Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/polynomials/polyfit</loc>
+    <lastmod>2024-09-24T17:47:38.856Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/see-also</loc>
     <lastmod>2024-08-23T12:29:04.000Z</lastmod>
