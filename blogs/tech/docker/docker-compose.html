@@ -12,9 +12,9 @@
 <li>Conclusion</li>
 </ol>
 <h2 id="current-scenario">Current Scenario<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#current-scenario" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
-<p>A single application comprises containers for different services responsible for their respective tasks. For example, a backend service, a database service to manage data, a frontend for the app, and so on. All of these services need to be in the same network to communicate with each other. I have explained docker networking in my post <a href="../../../blogs/tech/docker/docker-networking" class="internal alias" data-slug="blogs/tech/docker/docker-networking">Docker Networking</a>.</p>
+<p>A single application comprises containers for different services responsible for their respective tasks. For example, a backend service, a database service to manage data, a frontend for the app, and so on. All of these services need to be in the same network to communicate with each other. I have explained docker networking in my post <a href="./docker-networking" class="internal alias" data-slug="blogs/tech/docker/docker-networking">Docker Networking</a>.</p>
 <p>Managing all these services and different constituents such as networking, volumes, bind mounts, etc becomes an arduous task.</p>
-<p><img src="../../../blogs/resources/docker/prior-docker-compose.png" alt="Before docker compose" title="A person having difficulties managing docker containers"/></p>
+<p><img src="./assest/prior-docker-compose.png" alt="Before docker compose" title="A person having difficulties managing docker containers"/></p>
 <p>The following points summarise the problems in the current scenario:</p>
 <ol>
 <li>Networking. We have to explicitly create and manage networks. We have to be sure that a particular container is connected to a particular network.</li>
@@ -200,7 +200,7 @@
 <p>So, this is it for now. We have reached our junction and our train has to take a halt. Let’s continue our journey on the next green light with some other interesting topic.</p>
 <p>Please provide your valuable feedback about what you liked, what has to improve, and what topic should be there for our next junction.</p>
 <p>Until then,</p>
-<p><img src="../../../blogs/resources/bye-mr-bean.gif" alt="Bye by Mr Bean" title="Bye bye, see you on next post"/></p>
+<p><img src="../../bye-mr-bean.gif" alt="Bye by Mr Bean" title="Bye bye, see you on next post"/></p>
 <h2 id="references">References<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#references" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <ol>
 <li><a href="https://docs.docker.com/compose/" class="external">Docker compose overview<svg aria-hidden="true" class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>

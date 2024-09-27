@@ -6,65 +6,65 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>polyfit</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</guid>
-    <description>import numpy as np import matplotlib.pyplot as plt polyfit Objective is to create a fit of a set of data points and plot it. 1 degree polynomial x = np.array([1, 2, 3, 4]) y = np.array([1, 2, 3, 4]) fit = np.polyfit(x, y, 1) equation = np.poly1d(fit) x_points = np.linspace(1, 10, 100) y_points = equation(x_points) plt.figure(figsize=(4, 2)) plt.plot(x, y, &#039;.&#039;) plt.plot(x_points, y_points, &#039;-r&#039;) [&lt;matplotlib.lines.Line2D at 0x14c8564d0&gt;] 2 degree polynomial degree_2_fit = np.polyfit(x, y, 2) degree_2_eq = np.poly1d(degree_2_fit) print(degree_2_eq) 2 -4.958e-16 x + 1 x - 2.442e-15 y_points = degree_2_eq(x_points) plt.figure(figsize=(4, 2)) plt.plot(x, y, &#039;.&#039;, x_points, y_points, &#039;-r&#039;) [&lt;matplotlib.lines.Line2D at 0x14c7af670&gt;, &lt;matplotlib.lines.Line2D at 0x14c7afcd0&gt;] .</description>
-    <pubDate>Thu, 26 Sep 2024 18:32:59 GMT</pubDate>
+    <title>setup-ssh-with-gitlab</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</guid>
+    <description>Setup ssh with gitlab Step 1: Generate ssh key pair ssh-keygen -t rsa -b 2048 -C &quot;nitinsharmacs@gitlab.com&quot; -t can be any encryption you want to use ...</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>numpy.polynomials</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/numpy.polynomials</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/numpy.polynomials</guid>
-    <description>Goal Understanding polynomials handling methods of numpy. Includes poly1d polyval polyfit import numpy as np poly1d Creates a polynomial Creating polynomial # Creating polynomial of order 1 # 2x + 1 pol = np.poly1d([2, 1]) print(pol) 2 x + 1 # Creating a polynomal of order 2 # 2x^2 + 3x + 4 pol = np.poly1d([2, 3, 4]) print(pol) 2 2 x + 3 x + 4 Evaluation # Evaluating pol with x = 2 print(pol) print(pol(2)) print(pol([2, 3, 4])) 2 2 x + 3 x + 4 18 [18 31 48] Arithmetic operations # addition of pols print(pol + pol) # multiplication print(pol * pol) # division print(pol / pol) # returns quotient and remainder # square pols print(pol ** 3) 2 4 x + 6 x + 8 4 3 2 4 x + 12 x + 25 x + 24 x + 16 (poly1d([1.]), poly1d([0.])) 6 5 4 3 2 8 x + 36 x + 102 x + 171 x + 204 x + 144 x + 64 polyval help(np.polynomial.polynomial.polyval) Help on function polyval in module numpy.polynomial.polynomial: polyval(x, c, tensor=True) Evaluate a polynomial at points x.</description>
-    <pubDate>Thu, 26 Sep 2024 18:32:59 GMT</pubDate>
+    <title>gitlab-ci</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/git/gitlab-ci</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/git/gitlab-ci</guid>
+    <description>Gitlab CI A gitlab ci contains stages and job. Jobs are grouped in stages and run in parallel. stages: - build - deploy build-job: stage: build image: node script: - npm install - npm run build artifacts: paths: - &quot;build/&quot; pages: stage: deploy script: - mv build/ public/ artifacts: paths: - &quot;public/&quot; stages directive defines the sequence of jobs.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>spatial-frequency-notebook</title>
-    <link>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/1-spatial-frequency/spatial-frequency-notebook</link>
-    <guid>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/1-spatial-frequency/spatial-frequency-notebook</guid>
-    <description>import numpy as np import matplotlib.pyplot as plt def rgb_to_gray(rgb): r, g, b = rgb[:, :, 0], rgb[:, :, 1], rgb[:, :, 2] gray = 0.2989 * r + 0.5870 * g + 0.1140 * b return gray Plotting ...</description>
-    <pubDate>Thu, 26 Sep 2024 18:24:58 GMT</pubDate>
+    <title>apply_ufunc-dask</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask</guid>
+    <description>apply_ufunc with dask arrays apply_ufunc handles dask xarray in same manner as it does with numpy xarray. However, it requires an dask argument` to work with dask xarrays.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>numpy-flags</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/numpy-flags</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/numpy-flags</guid>
-    <description>Numpy flags Contains information about memory layout of the array. array.flags # C_CONTIGUOUS : True # F_CONTIGUOUS : True # OWNDATA : False # WRITEABLE : False # ALIGNED : True # WRITEBACKIFCOPY : False C and F contiguous defines the C or F style single contiguous segment.</description>
-    <pubDate>Thu, 26 Sep 2024 03:58:29 GMT</pubDate>
+    <title>map_blocks</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/map_blocks</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/map_blocks</guid>
+    <description>xarray.map_blocks It applies custom function on each chunk block of the DataArray or Dataset. def add_wrapper(d): print(&#039;------------------- START ---------------------&#039;) print(type(d)) print(d.shape) print(d) print(&#039;-------------------- END ------------------------&#039;) return d + 1 xda = ds.air[:2, :5, :5].chunk({&quot;time&quot;: 1}) xr.map_blocks(add_wrapper, ds.air).compute() Output ------------------- START --------------------- &lt;class &#039;xarray.core.dataarray.DataArray&#039;&gt; (0, 0, 0) &lt;xarray.DataArray &#039;air&#039; (time: 0, lat: 0, lon: 0)&gt; Size: 0B array([], shape=(0, 0, 0), dtype=float64) -------------------- END ------------------------ ------------------- START --------------------- &lt;class &#039;xarray.core.dataarray.DataArray&#039;&gt; (1, 5, 5) &lt;xarray.DataArray &#039;air&#039; (time: 1, lat: 5, lon: 5)&gt; Size: 200B array([[[241.2 , 242.5 , 243.5 , 244.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>sampling-and-psf</title>
-    <link>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/2-sampling-and-psf/sampling-and-psf</link>
-    <guid>https://nitinsharmacs.github.io/notes/radio-astronomy/imaging/2-sampling-and-psf/sampling-and-psf</guid>
-    <description>Sampling and PSF Sky is a continuous image. Interferometric arrays gives this continuous function as visibilities as fourier transformation. This visibilities needed to be converted into image domain to create sky image.</description>
-    <pubDate>Wed, 25 Sep 2024 17:46:36 GMT</pubDate>
+    <title>apply_ufunc</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc</guid>
+    <description>apply_ufunc Xarray method that applies custom function on underlying array in xarray. The underlying array can be a numpy or a dask array (need verification).</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>__array_interface__</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/__array_interface__</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/__array_interface__</guid>
-    <description></description>
-    <pubDate>Wed, 25 Sep 2024 04:19:13 GMT</pubDate>
+    <title>loop-dimensions</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/loop-dimensions</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/loop-dimensions</guid>
+    <description>Loop Dimensions Functions that performs operations on data with core-dimensions and taking axis as argument, can be easily used with apply_ufunc. However, functions which don’t take axis argument and need to work on core-dimensions need loop dimensions.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>ndarray-block-of-memory</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/ndarray-block-of-memory</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/ndarray-block-of-memory</guid>
-    <description>Block of memory Numpy array consists of raw data and mechanism to access data. Numpy arrays are stored in continuous memory locations and views of array shares the same memory locations.</description>
-    <pubDate>Wed, 25 Sep 2024 04:15:42 GMT</pubDate>
+    <title>xarray-with-dask</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-with-dask</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-with-dask</guid>
+    <description>Xarray with Dask Xarray is numpy array with metadata and accessing the array with metadata. Xarray does the computations in memory so has the limitation on data size.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>polyfit</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/polynomials/polyfit</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/polynomials/polyfit</guid>
-    <description>polyfit polyfit is used to create a fitting polynomial for a given set of data x and y. It uses least square method to create the polynomial.</description>
-    <pubDate>Tue, 24 Sep 2024 17:47:38 GMT</pubDate>
+    <title>core-dimensions</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/core-dimensions</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/core-dimensions</guid>
+    <description>Core Dimensions Fundamental dimensions over which an operation is defined. Why core dimensions? apply_ufunc is used to create generalized operations on xarray data.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>poly1d</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/polynomials/poly1d</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/polynomials/poly1d</guid>
-    <description>poly1d Creates polynomial given the coefficients. Number of coefficients determine the order of the polynomial. pol = np.poly1d([2, 3, 4]) print(pol) # 2 # 2 x + 3 x + 4 Polynomial can be evaluated by giving x values to it.</description>
-    <pubDate>Tue, 24 Sep 2024 13:08:47 GMT</pubDate>
+    <title>xarray-so-far</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-so-far</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-so-far</guid>
+    <description> xarray is made on top of numpy by adding more information about the nature of data. adding lables to the dimensions. Instead of just raw dimension, xarray added name to them such as time, longitude, etc.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item><item>
-    <title>numpy-log</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/numpy-log</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/numpy-log</guid>
-    <description>np.log10 np.log10(100) # 2.</description>
-    <pubDate>Tue, 24 Sep 2024 05:41:11 GMT</pubDate>
+    <title>apply_ufunc-dask-vectorize</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask-vectorize</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask-vectorize</guid>
+    <description>Vectorize Dask Xarray Vectorization for dask xarray works only when we give dask=parallelized parameter. From the note we saw that dask.array.apply_gufunc provides chunk blocks to custom function.</description>
+    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item>
     </channel>
   </rss>
