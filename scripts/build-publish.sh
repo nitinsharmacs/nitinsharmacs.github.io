@@ -28,6 +28,8 @@ function main() {
 
 		echo "Cleaning public directory" && \
 		clean_public && \
+		echo "Converting notebooks to markdowns" && \
+		./scripts/resolve_notebooks.sh && \
 		echo "Creating build" && \
 		build && \
 		echo "Creating git commit and pushing the changes" && \
