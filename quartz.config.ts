@@ -11,9 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "bitPhile",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
     baseUrl: "nitinsharmacs.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
