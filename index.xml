@@ -6,6 +6,24 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>interoperability</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/interoperability</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/interoperability</guid>
+    <description>Interoperability Interoperability defines how well numpy integrates with other libraries. To accomplish this, there are solutions like old buffer protocol and array interface.</description>
+    <pubDate>Mon, 30 Sep 2024 17:44:37 GMT</pubDate>
+  </item><item>
+    <title>export</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/conda/export</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/conda/export</guid>
+    <description>Conda export Exporting all the dependencies and their additional packages. conda env export &gt; file.yml # or conda export -n env &gt; file.yml This make sense when environment is being created in same platform as the source.</description>
+    <pubDate>Sun, 29 Sep 2024 07:40:41 GMT</pubDate>
+  </item><item>
+    <title>strides</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/strides</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/strides</guid>
+    <description>Strides array.strides gives the number of bytes need to be jumped to find the next elements on the corresponding dimensions. a = np.arange(4).reshape((2, 2)) # array([[0, 1], # [2, 3]]) a.strides # (16, 8) So, 16 bytes for x-axis and 8 bytes for y-axis needs to be jumped to get to next element.</description>
+    <pubDate>Fri, 27 Sep 2024 09:04:45 GMT</pubDate>
+  </item><item>
     <title>setup-ssh-with-gitlab</title>
     <link>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</guid>
@@ -46,24 +64,6 @@
     <link>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-with-dask</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-with-dask</guid>
     <description>Xarray with Dask Xarray is numpy array with metadata and accessing the array with metadata. Xarray does the computations in memory so has the limitation on data size.</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
-  </item><item>
-    <title>core-dimensions</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/xarray/core-dimensions</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/core-dimensions</guid>
-    <description>Core Dimensions Fundamental dimensions over which an operation is defined. Why core dimensions? apply_ufunc is used to create generalized operations on xarray data.</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
-  </item><item>
-    <title>xarray-so-far</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-so-far</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-so-far</guid>
-    <description> xarray is made on top of numpy by adding more information about the nature of data. adding lables to the dimensions. Instead of just raw dimension, xarray added name to them such as time, longitude, etc.</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
-  </item><item>
-    <title>apply_ufunc-dask-vectorize</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask-vectorize</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask-vectorize</guid>
-    <description>Vectorize Dask Xarray Vectorization for dask xarray works only when we give dask=parallelized parameter. From the note we saw that dask.array.apply_gufunc provides chunk blocks to custom function.</description>
     <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item>
     </channel>

@@ -458,6 +458,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/aws/email-notification-lambda</loc>
     <lastmod>2024-09-27T06:28:42.011Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/conda/export</loc>
+    <lastmod>2024-09-29T07:40:41.388Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/chunking</loc>
     <lastmod>2024-09-27T06:28:41.566Z</lastmod>
   </url><url>
@@ -512,7 +515,7 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/linux/resources</loc>
     <lastmod>2024-09-27T06:28:41.998Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/__array_interface__</loc>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/array-interface</loc>
     <lastmod>2024-09-27T06:28:41.584Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/broadcasting</loc>
@@ -538,6 +541,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/internal-organization</loc>
     <lastmod>2024-09-27T06:28:41.578Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/interoperability</loc>
+    <lastmod>2024-09-30T17:44:37.665Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/interp</loc>
     <lastmod>2024-09-27T06:28:41.593Z</lastmod>
@@ -577,6 +583,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/slicing</loc>
     <lastmod>2024-09-27T06:28:41.602Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/strides</loc>
+    <lastmod>2024-09-27T09:04:45.736Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/transpose</loc>
     <lastmod>2024-09-27T06:28:41.587Z</lastmod>
