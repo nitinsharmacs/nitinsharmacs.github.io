@@ -6,6 +6,30 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>grids-in-numpy</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</guid>
+    <description>Grids in numpy import numpy as np import matplotlib.pyplot as plt %matplotlib inline a = np.array([3, 1, 2, 5, 6, 7]) b = np.array(a[::-1]) x, y = np.meshgrid(a, b) x, y (array([[3, ...</description>
+    <pubDate>Fri, 04 Oct 2024 12:44:27 GMT</pubDate>
+  </item><item>
+    <title>mgrid</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/mgrid</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/mgrid</guid>
+    <description>numpy.mgrid numpy.mgridcan be used to create meshgrid by using slices. np.mgrid[0:5, 0:5] array([[[0, 0, 0, 0, 0], [1, 1, 1, 1, 1], [2, 2, 2, 2, 2], [3, 3, 3, 3, 3], [4, 4, 4, 4, 4]], [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]]]) This is equivalent to, np.meshgrid(np.arange(5), np.arange(5), indexing=&quot;ij&quot;) [array([[0, 0, 0, 0, 0], [1, 1, 1, 1, 1], [2, 2, 2, 2, 2], [3, 3, 3, 3, 3], [4, 4, 4, 4, 4]]), array([[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]])] np.mgrid uses matrix indexing system.</description>
+    <pubDate>Fri, 04 Oct 2024 11:42:23 GMT</pubDate>
+  </item><item>
+    <title>dump</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</guid>
+    <description>plt.imshow( output, cmap=&quot;gray&quot;, extent=[np.min(x), np.max(x), np.min(y), np.max(y)] ).</description>
+    <pubDate>Fri, 04 Oct 2024 11:17:04 GMT</pubDate>
+  </item><item>
+    <title>meshgrid</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/meshgrid</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/meshgrid</guid>
+    <description>Meshgrid Numpy meshgrid creates grid matrices from the input arrays. These matrices are also called coordinate matrices. figure: From microsoft excel. Showing good example of meshgrid.</description>
+    <pubDate>Fri, 04 Oct 2024 05:20:16 GMT</pubDate>
+  </item><item>
     <title>polyfit</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</guid>
@@ -40,30 +64,6 @@
     <link>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</guid>
     <description>Setup ssh with gitlab Step 1: Generate ssh key pair ssh-keygen -t rsa -b 2048 -C &quot;nitinsharmacs@gitlab.com&quot; -t can be any encryption you want to use ...</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
-  </item><item>
-    <title>gitlab-ci</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/git/gitlab-ci</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/git/gitlab-ci</guid>
-    <description>Gitlab CI A gitlab ci contains stages and job. Jobs are grouped in stages and run in parallel. stages: - build - deploy build-job: stage: build image: node script: - npm install - npm run build artifacts: paths: - &quot;build/&quot; pages: stage: deploy script: - mv build/ public/ artifacts: paths: - &quot;public/&quot; stages directive defines the sequence of jobs.</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
-  </item><item>
-    <title>apply_ufunc-dask</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc-dask</guid>
-    <description>apply_ufunc with dask arrays apply_ufunc handles dask xarray in same manner as it does with numpy xarray. However, it requires an dask argument` to work with dask xarrays.</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
-  </item><item>
-    <title>map_blocks</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/xarray/map_blocks</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/map_blocks</guid>
-    <description>xarray.map_blocks It applies custom function on each chunk block of the DataArray or Dataset. def add_wrapper(d): print(&#039;------------------- START ---------------------&#039;) print(type(d)) print(d.shape) print(d) print(&#039;-------------------- END ------------------------&#039;) return d + 1 xda = ds.air[:2, :5, :5].chunk({&quot;time&quot;: 1}) xr.map_blocks(add_wrapper, ds.air).compute() Output ------------------- START --------------------- &lt;class &#039;xarray.core.dataarray.DataArray&#039;&gt; (0, 0, 0) &lt;xarray.DataArray &#039;air&#039; (time: 0, lat: 0, lon: 0)&gt; Size: 0B array([], shape=(0, 0, 0), dtype=float64) -------------------- END ------------------------ ------------------- START --------------------- &lt;class &#039;xarray.core.dataarray.DataArray&#039;&gt; (1, 5, 5) &lt;xarray.DataArray &#039;air&#039; (time: 1, lat: 5, lon: 5)&gt; Size: 200B array([[[241.2 , 242.5 , 243.5 , 244.</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
-  </item><item>
-    <title>apply_ufunc</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/apply_ufunc</guid>
-    <description>apply_ufunc Xarray method that applies custom function on underlying array in xarray. The underlying array can be a numpy or a dask array (need verification).</description>
     <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item>
     </channel>

@@ -515,6 +515,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/linux/resources</loc>
     <lastmod>2024-09-27T06:28:41.998Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</loc>
+    <lastmod>2024-10-04T11:17:04.731Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/array-interface</loc>
     <lastmod>2024-09-27T06:28:41.584Z</lastmod>
   </url><url>
@@ -551,11 +554,20 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/masked-arrays</loc>
     <lastmod>2024-09-27T06:28:41.595Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/meshgrid</loc>
+    <lastmod>2024-10-04T05:20:16.410Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/mgrid</loc>
+    <lastmod>2024-10-04T11:42:23.540Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/ndarray-block-of-memory</loc>
     <lastmod>2024-09-27T06:28:41.592Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/newaxis</loc>
     <lastmod>2024-09-27T06:28:41.585Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</loc>
+    <lastmod>2024-10-04T12:44:27.250Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/numpy.polynomials</loc>
     <lastmod>2024-10-03T12:40:38.462Z</lastmod>
