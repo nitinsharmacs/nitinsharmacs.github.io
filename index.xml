@@ -6,6 +6,12 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>ogrid</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</guid>
+    <description>np.ogrid The way it is different than np.mgrid is that it does not include all the elements required for the grid. It returns 1D arrays and rest of the things lie on the numpy broadcasting.</description>
+    <pubDate>Mon, 07 Oct 2024 16:28:31 GMT</pubDate>
+  </item><item>
     <title>grids-in-numpy</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</guid>
@@ -59,12 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/strides</guid>
     <description>Strides array.strides gives the number of bytes need to be jumped to find the next elements on the corresponding dimensions. a = np.arange(4).reshape((2, 2)) # array([[0, 1], # [2, 3]]) a.strides # (16, 8) So, 16 bytes for x-axis and 8 bytes for y-axis needs to be jumped to get to next element.</description>
     <pubDate>Fri, 27 Sep 2024 09:04:45 GMT</pubDate>
-  </item><item>
-    <title>setup-ssh-with-gitlab</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/git/setup-ssh-with-gitlab</guid>
-    <description>Setup ssh with gitlab Step 1: Generate ssh key pair ssh-keygen -t rsa -b 2048 -C &quot;nitinsharmacs@gitlab.com&quot; -t can be any encryption you want to use ...</description>
-    <pubDate>Fri, 27 Sep 2024 06:28:42 GMT</pubDate>
   </item>
     </channel>
   </rss>
