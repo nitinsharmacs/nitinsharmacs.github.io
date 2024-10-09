@@ -10,7 +10,7 @@
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</guid>
     <description>np.ogrid The way it is different than np.mgrid is that it does not include all the elements required for the grid. It returns 1D arrays and rest of the things lie on the numpy broadcasting.</description>
-    <pubDate>Mon, 07 Oct 2024 16:28:31 GMT</pubDate>
+    <pubDate>Mon, 07 Oct 2024 16:28:00 GMT</pubDate>
   </item><item>
     <title>grids-in-numpy</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</link>
@@ -22,19 +22,19 @@
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/mgrid</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/mgrid</guid>
     <description>numpy.mgrid numpy.mgridcan be used to create meshgrid by using slices. np.mgrid[0:5, 0:5] array([[[0, 0, 0, 0, 0], [1, 1, 1, 1, 1], [2, 2, 2, 2, 2], [3, 3, 3, 3, 3], [4, 4, 4, 4, 4]], [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]]]) This is equivalent to, np.meshgrid(np.arange(5), np.arange(5), indexing=&quot;ij&quot;) [array([[0, 0, 0, 0, 0], [1, 1, 1, 1, 1], [2, 2, 2, 2, 2], [3, 3, 3, 3, 3], [4, 4, 4, 4, 4]]), array([[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]])] np.mgrid uses matrix indexing system.</description>
-    <pubDate>Fri, 04 Oct 2024 11:42:23 GMT</pubDate>
+    <pubDate>Fri, 04 Oct 2024 11:42:00 GMT</pubDate>
   </item><item>
     <title>dump</title>
     <link>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</guid>
     <description>plt.imshow( output, cmap=&quot;gray&quot;, extent=[np.min(x), np.max(x), np.min(y), np.max(y)] ).</description>
-    <pubDate>Fri, 04 Oct 2024 11:17:04 GMT</pubDate>
+    <pubDate>Fri, 04 Oct 2024 11:17:00 GMT</pubDate>
   </item><item>
     <title>meshgrid</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/meshgrid</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/meshgrid</guid>
     <description>Meshgrid Numpy meshgrid creates grid matrices from the input arrays. These matrices are also called coordinate matrices. figure: From microsoft excel. Showing good example of meshgrid.</description>
-    <pubDate>Fri, 04 Oct 2024 05:20:16 GMT</pubDate>
+    <pubDate>Fri, 04 Oct 2024 05:20:00 GMT</pubDate>
   </item><item>
     <title>polyfit</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</link>
@@ -52,19 +52,19 @@
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/interoperability</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/interoperability</guid>
     <description>Interoperability Interoperability defines how well numpy integrates with other libraries. To accomplish this, there are solutions like old buffer protocol and array interface.</description>
-    <pubDate>Mon, 30 Sep 2024 17:44:37 GMT</pubDate>
+    <pubDate>Mon, 30 Sep 2024 17:44:00 GMT</pubDate>
   </item><item>
     <title>export</title>
     <link>https://nitinsharmacs.github.io/notes/tech/conda/export</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/conda/export</guid>
     <description>Conda export Exporting all the dependencies and their additional packages. conda env export &gt; file.yml # or conda export -n env &gt; file.yml This make sense when environment is being created in same platform as the source.</description>
-    <pubDate>Sun, 29 Sep 2024 07:40:41 GMT</pubDate>
+    <pubDate>Sun, 29 Sep 2024 07:40:00 GMT</pubDate>
   </item><item>
     <title>strides</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/strides</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/strides</guid>
     <description>Strides array.strides gives the number of bytes need to be jumped to find the next elements on the corresponding dimensions. a = np.arange(4).reshape((2, 2)) # array([[0, 1], # [2, 3]]) a.strides # (16, 8) So, 16 bytes for x-axis and 8 bytes for y-axis needs to be jumped to get to next element.</description>
-    <pubDate>Fri, 27 Sep 2024 09:04:45 GMT</pubDate>
+    <pubDate>Fri, 27 Sep 2024 09:04:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
