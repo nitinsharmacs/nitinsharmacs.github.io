@@ -6,6 +6,42 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>client</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/client</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/client</guid>
+    <description>Client Dask client for the computation. from dask.distributed import Client client = Client(cluster) # Or scheduler_ip = &quot;tcp://IP&quot; client = Client(scheduler_ip).</description>
+    <pubDate>Thu, 17 Oct 2024 13:15:00 GMT</pubDate>
+  </item><item>
+    <title>internal-design</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/internal-design</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/internal-design</guid>
+    <description>import dask.array as da import numpy as np Dask array as graph a = da.arange(15, chunks=(5,)) a &lt;tr&gt; &lt;th&gt; Bytes &lt;/th&gt; &lt;td&gt; 120 B &lt;/td&gt; &lt;td&gt; ...</description>
+    <pubDate>Wed, 16 Oct 2024 18:12:12 GMT</pubDate>
+  </item><item>
+    <title>chunks</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/chunks</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/chunks</guid>
+    <description>Objectives Understand chunking in dask array Different ways of chunking import dask.array as da import numpy as np Chunked Dask array a = da.arange(6*6).reshape((6, 6)) a &lt;tr&gt; ...</description>
+    <pubDate>Wed, 16 Oct 2024 18:12:12 GMT</pubDate>
+  </item><item>
+    <title>delayed</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/delayed</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/delayed</guid>
+    <description>import dask from dask.graph_manipulation import bind import graphviz Adding task with side effects DATA = [] @dask.delayed def inc(x): return x + 1 @dask.delayed def add_data(x): ...</description>
+    <pubDate>Wed, 16 Oct 2024 18:12:11 GMT</pubDate>
+  </item><item>
+    <title>reshape</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/reshape</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/reshape</guid>
+    <description>Reshape Dask array can be reshaped using dask.array.reshape method. a = da.ones((3, 4), chunks=(2, 2)) a.reshape((3, 2, 2)) Reshape in dask array is not similar as numpy reshape because dask arrays have chunks and doing reshaping requires some re-alignment or re-chunking of the chunks.</description>
+    <pubDate>Wed, 09 Oct 2024 14:03:00 GMT</pubDate>
+  </item><item>
+    <title>rechunk</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/rechunk</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/rechunk</guid>
+    <description>Rechunk Dask arrays can be rechunked using dask.array.rechunk method using any of the chunk format as described here. dask.array.ones((3, 4), chunks=(2, 2)).rechunk(((1, 1, 1), (2, 2))).</description>
+    <pubDate>Wed, 09 Oct 2024 13:23:00 GMT</pubDate>
+  </item><item>
     <title>ogrid</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</guid>
@@ -29,42 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</guid>
     <description>plt.imshow( output, cmap=&quot;gray&quot;, extent=[np.min(x), np.max(x), np.min(y), np.max(y)] ).</description>
     <pubDate>Fri, 04 Oct 2024 11:17:00 GMT</pubDate>
-  </item><item>
-    <title>meshgrid</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/meshgrid</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/meshgrid</guid>
-    <description>Meshgrid Numpy meshgrid creates grid matrices from the input arrays. These matrices are also called coordinate matrices. figure: From microsoft excel. Showing good example of meshgrid.</description>
-    <pubDate>Fri, 04 Oct 2024 05:20:00 GMT</pubDate>
-  </item><item>
-    <title>polyfit</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/polyfit</guid>
-    <description>import numpy as np import matplotlib.pyplot as plt polyfit Objective is to create a fit of a set of data points and plot it. 1 degree polynomial x = np.array([1, 2, 3, 4]) y = np.array([1, 2, 3, 4]) fit = np.polyfit(x, y, 1) equation = np.poly1d(fit) x_points = np.linspace(1, 10, 100) y_points = equation(x_points) plt.figure(figsize=(4, 2)) plt.plot(x, y, &#039;.&#039;) plt.plot(x_points, y_points, &#039;-r&#039;) [&lt;matplotlib.lines.Line2D at 0x14c8564d0&gt;] 2 degree polynomial degree_2_fit = np.polyfit(x, y, 2) degree_2_eq = np.poly1d(degree_2_fit) print(degree_2_eq) 2 -4.958e-16 x + 1 x - 2.442e-15 y_points = degree_2_eq(x_points) plt.figure(figsize=(4, 2)) plt.plot(x, y, &#039;.&#039;, x_points, y_points, &#039;-r&#039;) [&lt;matplotlib.lines.Line2D at 0x14c7af670&gt;, &lt;matplotlib.lines.Line2D at 0x14c7afcd0&gt;] .</description>
-    <pubDate>Thu, 03 Oct 2024 12:40:38 GMT</pubDate>
-  </item><item>
-    <title>numpy.polynomials</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/numpy.polynomials</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/numpy.polynomials</guid>
-    <description>Goal Understanding polynomials handling methods of numpy. Includes poly1d polyval polyfit import numpy as np poly1d Creates a polynomial Creating polynomial # Creating polynomial of order 1 # 2x + 1 pol = np.poly1d([2, 1]) print(pol) 2 x + 1 # Creating a polynomal of order 2 # 2x^2 + 3x + 4 pol = np.poly1d([2, 3, 4]) print(pol) 2 2 x + 3 x + 4 Evaluation # Evaluating pol with x = 2 print(pol) print(pol(2)) print(pol([2, 3, 4])) 2 2 x + 3 x + 4 18 [18 31 48] Arithmetic operations # addition of pols print(pol + pol) # multiplication print(pol * pol) # division print(pol / pol) # returns quotient and remainder # square pols print(pol ** 3) 2 4 x + 6 x + 8 4 3 2 4 x + 12 x + 25 x + 24 x + 16 (poly1d([1.]), poly1d([0.])) 6 5 4 3 2 8 x + 36 x + 102 x + 171 x + 204 x + 144 x + 64 polyval np.polynomial.polynomial.polyval([1,2,3, 4], [2, 3, 4]) array([ 9., 24., 47., 78.]) print(pol(4)) 48 Issue? print(pol) print(pol(2)) print(np.polynomial.polynomial.polyval(2, pol)) # why both evaluations result different values? 2 2 x + 3 x + 4 18 24.0 polyfit polyfit is used to find the cofficient of a polynomial that best fits the given data points.</description>
-    <pubDate>Thu, 03 Oct 2024 12:40:38 GMT</pubDate>
-  </item><item>
-    <title>interoperability</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/interoperability</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/interoperability</guid>
-    <description>Interoperability Interoperability defines how well numpy integrates with other libraries. To accomplish this, there are solutions like old buffer protocol and array interface.</description>
-    <pubDate>Mon, 30 Sep 2024 17:44:00 GMT</pubDate>
-  </item><item>
-    <title>export</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/conda/export</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/conda/export</guid>
-    <description>Conda export Exporting all the dependencies and their additional packages. conda env export &gt; file.yml # or conda export -n env &gt; file.yml This make sense when environment is being created in same platform as the source.</description>
-    <pubDate>Sun, 29 Sep 2024 07:40:00 GMT</pubDate>
-  </item><item>
-    <title>strides</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/strides</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/strides</guid>
-    <description>Strides array.strides gives the number of bytes need to be jumped to find the next elements on the corresponding dimensions. a = np.arange(4).reshape((2, 2)) # array([[0, 1], # [2, 3]]) a.strides # (16, 8) So, 16 bytes for x-axis and 8 bytes for y-axis needs to be jumped to get to next element.</description>
-    <pubDate>Fri, 27 Sep 2024 09:04:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
