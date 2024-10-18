@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "nitinsharmacs.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/__pycache__"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
