@@ -473,14 +473,14 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/dask-delayed</loc>
     <lastmod>2024-05-09T10:54:00.000Z</lastmod>
   </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/tech/dask/dask-graph</loc>
-    <lastmod>2024-05-21T07:22:00.000Z</lastmod>
-  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/dask-so-far</loc>
     <lastmod>2024-05-08T12:29:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/get-method</loc>
     <lastmod>2024-05-21T07:31:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/high-level-graph</loc>
+    <lastmod>2024-10-22T18:06:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/local-cluster</loc>
     <lastmod>2024-05-21T05:26:00.000Z</lastmod>
@@ -491,11 +491,23 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/chunks</loc>
     <lastmod>2024-10-16T18:12:12.254Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/debugging-in-dask</loc>
+    <lastmod>2024-10-25T12:34:29.821Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/delayed</loc>
     <lastmod>2024-10-16T18:12:11.997Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/high-level-graphs</loc>
+    <lastmod>2024-10-25T12:34:30.089Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/internal-design</loc>
     <lastmod>2024-10-16T18:12:12.508Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/task-graphs</loc>
+    <lastmod>2024-10-25T12:34:28.736Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/visualize-task-graphs</loc>
+    <lastmod>2024-10-25T12:34:29.011Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/rechunk</loc>
     <lastmod>2024-10-09T13:23:00.000Z</lastmod>
@@ -505,6 +517,12 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/scheduler</loc>
     <lastmod>2024-05-21T04:34:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/task-graphs</loc>
+    <lastmod>2024-10-20T13:02:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/dask/visualize-task-graphs</loc>
+    <lastmod>2024-10-25T09:22:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/elk-stack</loc>
     <lastmod>2024-07-09T12:27:00.000Z</lastmod>

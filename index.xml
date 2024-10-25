@@ -6,6 +6,48 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>high-level-graphs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/high-level-graphs</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/high-level-graphs</guid>
+    <description>from dask.highlevelgraph import HighLevelGraph import dask from dask.threaded import get def add(x, y): return x + y def square(x): return x ** 2 layers = { &#039;add&#039;: { (&#039;add&#039;, ...</description>
+    <pubDate>Fri, 25 Oct 2024 12:34:30 GMT</pubDate>
+  </item><item>
+    <title>debugging-in-dask</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/debugging-in-dask</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/debugging-in-dask</guid>
+    <description>from dask.distributed import Client, print client = Client() client Client Client-859821fa-9297-11ef-8a5c-acde48001122 &lt;tr&gt; &lt;td style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;Connection ...</description>
+    <pubDate>Fri, 25 Oct 2024 12:34:29 GMT</pubDate>
+  </item><item>
+    <title>visualize-task-graphs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/visualize-task-graphs</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/visualize-task-graphs</guid>
+    <description>import dask.array as da import dask x = da.ones((15, 15), chunks=(5, 5)) y = x.sum() dask.visualize(y) y.visualize(rankdir=&#039;BT&#039;) dask.visualize(y, optimize_graph=True) ...</description>
+    <pubDate>Fri, 25 Oct 2024 12:34:29 GMT</pubDate>
+  </item><item>
+    <title>task-graphs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/task-graphs</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/task-graphs</guid>
+    <description>from dask.threaded import get def add(a, b): return a + b dsk = { &#039;x&#039;: 3, &#039;y&#039;: 2, &#039;z&#039;: (add, &#039;x&#039;, &#039;y&#039;) } get(dsk, &#039;z&#039;) ...</description>
+    <pubDate>Fri, 25 Oct 2024 12:34:28 GMT</pubDate>
+  </item><item>
+    <title>visualize-task-graphs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/visualize-task-graphs</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/visualize-task-graphs</guid>
+    <description>Visualize Task Graphs Task graph can be visualized using dask.visualize and .visualize on the collections. High level task graphs Below code snippet shows High level task graphs visualization.</description>
+    <pubDate>Fri, 25 Oct 2024 09:22:00 GMT</pubDate>
+  </item><item>
+    <title>high-level-graph</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/high-level-graph</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/high-level-graph</guid>
+    <description>High Level Graphs Dask collections operations are structurally defined as a high level graph of tasks and sub graphs. They can be used for visualizations and high level optimizations.</description>
+    <pubDate>Tue, 22 Oct 2024 18:06:00 GMT</pubDate>
+  </item><item>
+    <title>task-graphs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/task-graphs</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/task-graphs</guid>
+    <description>Task Graphs Dask internally converts the algorithms into a graph format made of python dicts, tuples, and functions. For example, dsk = { &#039;x&#039;: 1, &#039;y&#039;: 2, &#039;z&#039;: (add, &#039;x&#039;, &#039;y&#039;) } A key can be a str, bytes, float, or a tuple.</description>
+    <pubDate>Sun, 20 Oct 2024 13:02:00 GMT</pubDate>
+  </item><item>
     <title>client</title>
     <link>https://nitinsharmacs.github.io/notes/tech/dask/client</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/dask/client</guid>
@@ -23,48 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/chunks</guid>
     <description>Objectives Understand chunking in dask array Different ways of chunking import dask.array as da import numpy as np Chunked Dask array a = da.arange(6*6).reshape((6, 6)) a &lt;tr&gt; ...</description>
     <pubDate>Wed, 16 Oct 2024 18:12:12 GMT</pubDate>
-  </item><item>
-    <title>delayed</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/delayed</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/delayed</guid>
-    <description>import dask from dask.graph_manipulation import bind import graphviz Adding task with side effects DATA = [] @dask.delayed def inc(x): return x + 1 @dask.delayed def add_data(x): ...</description>
-    <pubDate>Wed, 16 Oct 2024 18:12:11 GMT</pubDate>
-  </item><item>
-    <title>reshape</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/reshape</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/reshape</guid>
-    <description>Reshape Dask array can be reshaped using dask.array.reshape method. a = da.ones((3, 4), chunks=(2, 2)) a.reshape((3, 2, 2)) Reshape in dask array is not similar as numpy reshape because dask arrays have chunks and doing reshaping requires some re-alignment or re-chunking of the chunks.</description>
-    <pubDate>Wed, 09 Oct 2024 14:03:00 GMT</pubDate>
-  </item><item>
-    <title>rechunk</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/rechunk</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/rechunk</guid>
-    <description>Rechunk Dask arrays can be rechunked using dask.array.rechunk method using any of the chunk format as described here. dask.array.ones((3, 4), chunks=(2, 2)).rechunk(((1, 1, 1), (2, 2))).</description>
-    <pubDate>Wed, 09 Oct 2024 13:23:00 GMT</pubDate>
-  </item><item>
-    <title>ogrid</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/ogrid</guid>
-    <description>np.ogrid The way it is different than np.mgrid is that it does not include all the elements required for the grid. It returns 1D arrays and rest of the things lie on the numpy broadcasting.</description>
-    <pubDate>Mon, 07 Oct 2024 16:28:00 GMT</pubDate>
-  </item><item>
-    <title>grids-in-numpy</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</guid>
-    <description>Grids in numpy import numpy as np import matplotlib.pyplot as plt %matplotlib inline a = np.array([3, 1, 2, 5, 6, 7]) b = np.array(a[::-1]) x, y = np.meshgrid(a, b) x, y (array([[3, ...</description>
-    <pubDate>Fri, 04 Oct 2024 12:44:27 GMT</pubDate>
-  </item><item>
-    <title>mgrid</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/numpy/mgrid</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/mgrid</guid>
-    <description>numpy.mgrid numpy.mgridcan be used to create meshgrid by using slices. np.mgrid[0:5, 0:5] array([[[0, 0, 0, 0, 0], [1, 1, 1, 1, 1], [2, 2, 2, 2, 2], [3, 3, 3, 3, 3], [4, 4, 4, 4, 4]], [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]]]) This is equivalent to, np.meshgrid(np.arange(5), np.arange(5), indexing=&quot;ij&quot;) [array([[0, 0, 0, 0, 0], [1, 1, 1, 1, 1], [2, 2, 2, 2, 2], [3, 3, 3, 3, 3], [4, 4, 4, 4, 4]]), array([[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]])] np.mgrid uses matrix indexing system.</description>
-    <pubDate>Fri, 04 Oct 2024 11:42:00 GMT</pubDate>
-  </item><item>
-    <title>dump</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/matplotlib/dump</guid>
-    <description>plt.imshow( output, cmap=&quot;gray&quot;, extent=[np.min(x), np.max(x), np.min(y), np.max(y)] ).</description>
-    <pubDate>Fri, 04 Oct 2024 11:17:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
