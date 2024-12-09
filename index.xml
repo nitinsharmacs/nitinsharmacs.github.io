@@ -6,65 +6,65 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>high-level-graphs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/high-level-graphs</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/high-level-graphs</guid>
-    <description>from dask.highlevelgraph import HighLevelGraph import dask from dask.threaded import get def add(x, y): return x + y def square(x): return x ** 2 layers = { &#039;add&#039;: { (&#039;add&#039;, ...</description>
-    <pubDate>Fri, 25 Oct 2024 12:34:30 GMT</pubDate>
+    <title>diagnostics-local</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/diagnostics-local</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/diagnostics-local</guid>
+    <description>import dask.array as da from dask.diagnostics import ProgressBar a = da.arange(10000, chunks=(100)) a &lt;tr&gt; &lt;th&gt; Bytes &lt;/th&gt; &lt;td&gt; 78.12 kiB &lt;/td&gt; ...</description>
+    <pubDate>Mon, 09 Dec 2024 18:14:37 GMT</pubDate>
   </item><item>
-    <title>debugging-in-dask</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/debugging-in-dask</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/debugging-in-dask</guid>
-    <description>from dask.distributed import Client, print client = Client() client Client Client-859821fa-9297-11ef-8a5c-acde48001122 &lt;tr&gt; &lt;td style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;Connection ...</description>
-    <pubDate>Fri, 25 Oct 2024 12:34:29 GMT</pubDate>
+    <title>exploration</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/exploration</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/exploration</guid>
+    <description>import dask.array as da import dask x = da.ones(1000, chunks=(100,)).sum() dask.visualize(x) .</description>
+    <pubDate>Mon, 09 Dec 2024 18:14:36 GMT</pubDate>
   </item><item>
-    <title>visualize-task-graphs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/visualize-task-graphs</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/visualize-task-graphs</guid>
-    <description>import dask.array as da import dask x = da.ones((15, 15), chunks=(5, 5)) y = x.sum() dask.visualize(y) y.visualize(rankdir=&#039;BT&#039;) dask.visualize(y, optimize_graph=True) ...</description>
-    <pubDate>Fri, 25 Oct 2024 12:34:29 GMT</pubDate>
+    <title>ordering</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/ordering</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/ordering</guid>
+    <description>import dask.array as da import dask from dask.distributed import Client, performance_report x = da.zeros((12500, 10000), chunks=(&#039;10MB&#039;, -1)) x &lt;tr&gt; &lt;th&gt; ...</description>
+    <pubDate>Mon, 09 Dec 2024 18:14:36 GMT</pubDate>
   </item><item>
-    <title>task-graphs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/task-graphs</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/task-graphs</guid>
-    <description>from dask.threaded import get def add(a, b): return a + b dsk = { &#039;x&#039;: 3, &#039;y&#039;: 2, &#039;z&#039;: (add, &#039;x&#039;, &#039;y&#039;) } get(dsk, &#039;z&#039;) ...</description>
-    <pubDate>Fri, 25 Oct 2024 12:34:28 GMT</pubDate>
+    <title>optimization-custom-graphs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/optimization-custom-graphs</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/optimization-custom-graphs</guid>
+    <description>import dask from dask.distributed import Client import dask.array as da import xarray as xr import numpy as np from dask.threaded import get from dask.highlevelgraph import HighLevelGraph ...</description>
+    <pubDate>Mon, 09 Dec 2024 18:14:35 GMT</pubDate>
   </item><item>
-    <title>visualize-task-graphs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/visualize-task-graphs</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/visualize-task-graphs</guid>
-    <description>Visualize Task Graphs Task graph can be visualized using dask.visualize and .visualize on the collections. High level task graphs Below code snippet shows High level task graphs visualization.</description>
-    <pubDate>Fri, 25 Oct 2024 09:22:00 GMT</pubDate>
+    <title>dask-fuse</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/dask-fuse</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/dask-fuse</guid>
+    <description>Observations HighLevelGraphs How to get the HighLevelGraph: res.data.dask or res.__dask_graph__() to get the graph in layers format. res.data.dask.visualize() or res.__dask_graph__().visualize() to get in graph format.</description>
+    <pubDate>Mon, 09 Dec 2024 18:14:35 GMT</pubDate>
   </item><item>
-    <title>high-level-graph</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/high-level-graph</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/high-level-graph</guid>
-    <description>High Level Graphs Dask collections operations are structurally defined as a high level graph of tasks and sub graphs. They can be used for visualizations and high level optimizations.</description>
-    <pubDate>Tue, 22 Oct 2024 18:06:00 GMT</pubDate>
+    <title>stages-of-computation</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/stages-of-computation</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/stages-of-computation</guid>
+    <description>import dask from dask.distributed import Client import dask.array as da import numpy as np %load_ext snakeviz client = Client(&quot;tcp://172.20.104.205:8786&quot;) client ...</description>
+    <pubDate>Mon, 09 Dec 2024 18:14:34 GMT</pubDate>
   </item><item>
-    <title>task-graphs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/task-graphs</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/task-graphs</guid>
-    <description>Task Graphs Dask internally converts the algorithms into a graph format made of python dicts, tuples, and functions. For example, dsk = { &#039;x&#039;: 1, &#039;y&#039;: 2, &#039;z&#039;: (add, &#039;x&#039;, &#039;y&#039;) } A key can be a str, bytes, float, or a tuple.</description>
-    <pubDate>Sun, 20 Oct 2024 13:02:00 GMT</pubDate>
+    <title>simple-module-file</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/environment-modules/simple-module-file</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/environment-modules/simple-module-file</guid>
+    <description>Write a module file A module files are written using TCL (Tool Command Language) and is interpreted by modulecmd.tcl. A simple example of module file which adds a path to environment variable PATH.</description>
+    <pubDate>Mon, 09 Dec 2024 17:42:00 GMT</pubDate>
   </item><item>
-    <title>client</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/client</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/client</guid>
-    <description>Client Dask client for the computation. from dask.distributed import Client client = Client(cluster) # Or scheduler_ip = &quot;tcp://IP&quot; client = Client(scheduler_ip).</description>
-    <pubDate>Thu, 17 Oct 2024 13:15:00 GMT</pubDate>
+    <title>installing-modules</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/environment-modules/installing-modules</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/environment-modules/installing-modules</guid>
+    <description>To install module from source, we need to download tarball of the required version, unpack it and install using make. Different releases of module can be find here.</description>
+    <pubDate>Sun, 08 Dec 2024 16:02:00 GMT</pubDate>
   </item><item>
-    <title>internal-design</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/internal-design</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/internal-design</guid>
-    <description>import dask.array as da import numpy as np Dask array as graph a = da.arange(15, chunks=(5,)) a &lt;tr&gt; &lt;th&gt; Bytes &lt;/th&gt; &lt;td&gt; 120 B &lt;/td&gt; &lt;td&gt; ...</description>
-    <pubDate>Wed, 16 Oct 2024 18:12:12 GMT</pubDate>
+    <title>persist</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/persist</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/persist</guid>
+    <description>Persist persist starts the computation and stores the results in memory. However, it is different from compute in a way where persist gives back dask object with results being computed or computed and stored on distributed cluster memory.</description>
+    <pubDate>Wed, 06 Nov 2024 05:52:00 GMT</pubDate>
   </item><item>
-    <title>chunks</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/chunks</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/chunks</guid>
-    <description>Objectives Understand chunking in dask array Different ways of chunking import dask.array as da import numpy as np Chunked Dask array a = da.arange(6*6).reshape((6, 6)) a &lt;tr&gt; ...</description>
-    <pubDate>Wed, 16 Oct 2024 18:12:12 GMT</pubDate>
+    <title>dask-dashboard</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/dask/dask-dashboard</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/dask/dask-dashboard</guid>
+    <description>Dask Dashboard Dask dashboard provides details of the distributed computations, workers, and cluster resource usages. Dashboard provides different diagnosis plots, some of them are: Bytes stored and Bytes per worker Task processing/CPU utilization/Occupancy/Data Transfer Task Stream Progress Bytes stored and Bytes per worker These plots provides overall memory utilization of the cluster and individual workers.</description>
+    <pubDate>Mon, 04 Nov 2024 15:47:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
