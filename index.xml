@@ -6,6 +6,42 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>git-stash</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/git/git-stash</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/git/git-stash</guid>
+    <description>git stash Stash is used to temporarily shift the changes made to working repository so that something else can be done there. Stash saves changes for tracked files and indexed files by default.</description>
+    <pubDate>Mon, 20 Jan 2025 06:13:00 GMT</pubDate>
+  </item><item>
+    <title>queue</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/multiprocessing/queue</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/multiprocessing/queue</guid>
+    <description>Queue A queue is process shared queue implementation. It is used as a way to pass information among the processes. from multiprocessing import Queue from threading import Thread q = Queue() def worker(): while True: value = q.get() print(f&quot;Got some value {value}&quot;) t = Thread(target=worker) t.start() q.put(1) &quot;Got some value 1&quot; q.put(&quot;something&quot;) &quot;Got some value something&quot; q.get method blocks until it gets a value.</description>
+    <pubDate>Wed, 08 Jan 2025 16:59:00 GMT</pubDate>
+  </item><item>
+    <title>run-slurm-script</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/slurm/run-slurm-script</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/slurm/run-slurm-script</guid>
+    <description>Slurm Script A slurm script is used to run a set of slurm job steps. It can be submitted using sbatch command. Let’s try running following slurm script.</description>
+    <pubDate>Mon, 06 Jan 2025 10:19:00 GMT</pubDate>
+  </item><item>
+    <title>slurm-overview</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/slurm/slurm-overview</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/slurm/slurm-overview</guid>
+    <description>Slurm Slurm is a fault-tolerant, highly scalable cluster management and job scheduling system for large and small linux clusters. As a workload manager, it handles allocation of resources, scheduling and monitoring jobs.</description>
+    <pubDate>Mon, 06 Jan 2025 07:45:00 GMT</pubDate>
+  </item><item>
+    <title>dunder-functions</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/dunder-functions</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/dunder-functions</guid>
+    <description>Dunder Functions Dunder word is taken by composing “Double” and “Underscore”. So, dunder functions are functions that start and end with double underscores.</description>
+    <pubDate>Mon, 16 Dec 2024 15:01:00 GMT</pubDate>
+  </item><item>
+    <title>attributes-vs-properties</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/attributes-vs-properties</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/attributes-vs-properties</guid>
+    <description>Attributes Vs Properties class Person(): def __init__(self): self._name = &quot;test&quot; @property def name(self): return self._name @name.setter def name(self, value): ...</description>
+    <pubDate>Thu, 12 Dec 2024 16:18:00 GMT</pubDate>
+  </item><item>
     <title>diagnostics-local</title>
     <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/diagnostics-local</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/diagnostics-local</guid>
@@ -29,42 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/optimization-custom-graphs</guid>
     <description>import dask from dask.distributed import Client import dask.array as da import xarray as xr import numpy as np from dask.threaded import get from dask.highlevelgraph import HighLevelGraph ...</description>
     <pubDate>Mon, 09 Dec 2024 18:14:35 GMT</pubDate>
-  </item><item>
-    <title>dask-fuse</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/dask-fuse</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/dask-fuse</guid>
-    <description>Observations HighLevelGraphs How to get the HighLevelGraph: res.data.dask or res.__dask_graph__() to get the graph in layers format. res.data.dask.visualize() or res.__dask_graph__().visualize() to get in graph format.</description>
-    <pubDate>Mon, 09 Dec 2024 18:14:35 GMT</pubDate>
-  </item><item>
-    <title>stages-of-computation</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/stages-of-computation</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/stages-of-computation</guid>
-    <description>import dask from dask.distributed import Client import dask.array as da import numpy as np %load_ext snakeviz client = Client(&quot;tcp://172.20.104.205:8786&quot;) client ...</description>
-    <pubDate>Mon, 09 Dec 2024 18:14:34 GMT</pubDate>
-  </item><item>
-    <title>simple-module-file</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/environment-modules/simple-module-file</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/environment-modules/simple-module-file</guid>
-    <description>Write a module file A module files are written using TCL (Tool Command Language) and is interpreted by modulecmd.tcl. A simple example of module file which adds a path to environment variable PATH.</description>
-    <pubDate>Mon, 09 Dec 2024 17:42:00 GMT</pubDate>
-  </item><item>
-    <title>installing-modules</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/environment-modules/installing-modules</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/environment-modules/installing-modules</guid>
-    <description>To install module from source, we need to download tarball of the required version, unpack it and install using make. Different releases of module can be find here.</description>
-    <pubDate>Sun, 08 Dec 2024 16:02:00 GMT</pubDate>
-  </item><item>
-    <title>persist</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/persist</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/persist</guid>
-    <description>Persist persist starts the computation and stores the results in memory. However, it is different from compute in a way where persist gives back dask object with results being computed or computed and stored on distributed cluster memory.</description>
-    <pubDate>Wed, 06 Nov 2024 05:52:00 GMT</pubDate>
-  </item><item>
-    <title>dask-dashboard</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/dask-dashboard</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/dask-dashboard</guid>
-    <description>Dask Dashboard Dask dashboard provides details of the distributed computations, workers, and cluster resource usages. Dashboard provides different diagnosis plots, some of them are: Bytes stored and Bytes per worker Task processing/CPU utilization/Occupancy/Data Transfer Task Stream Progress Bytes stored and Bytes per worker These plots provides overall memory utilization of the cluster and individual workers.</description>
-    <pubDate>Mon, 04 Nov 2024 15:47:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
