@@ -6,65 +6,65 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>git-stash</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/git/git-stash</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/git/git-stash</guid>
-    <description>git stash Stash is used to temporarily shift the changes made to working repository so that something else can be done there. Stash saves changes for tracked files and indexed files by default.</description>
-    <pubDate>Mon, 20 Jan 2025 06:13:00 GMT</pubDate>
+    <title>loading-unloading-packages</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/spack/loading-unloading-packages</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/spack/loading-unloading-packages</guid>
+    <description>Loading/Unloading Spack Packages Spack load command is used to load packages. It changes the PATH variable so that package executables becomes available.</description>
+    <pubDate>Wed, 12 Mar 2025 07:23:00 GMT</pubDate>
   </item><item>
-    <title>queue</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/multiprocessing/queue</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/multiprocessing/queue</guid>
-    <description>Queue A queue is process shared queue implementation. It is used as a way to pass information among the processes. from multiprocessing import Queue from threading import Thread q = Queue() def worker(): while True: value = q.get() print(f&quot;Got some value {value}&quot;) t = Thread(target=worker) t.start() q.put(1) &quot;Got some value 1&quot; q.put(&quot;something&quot;) &quot;Got some value something&quot; q.get method blocks until it gets a value.</description>
-    <pubDate>Wed, 08 Jan 2025 16:59:00 GMT</pubDate>
+    <title>dependencies-graph</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/spack/dependencies-graph</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/spack/dependencies-graph</guid>
+    <description>spack graph graph command gives the graphical representation of package dependencies. spack graph mysql To create pdf of graph, we can use spack graph --dot mysql | dot -Tpdf &gt; dependencies.pdf .</description>
+    <pubDate>Tue, 11 Mar 2025 13:32:00 GMT</pubDate>
   </item><item>
-    <title>run-slurm-script</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/slurm/run-slurm-script</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/slurm/run-slurm-script</guid>
-    <description>Slurm Script A slurm script is used to run a set of slurm job steps. It can be submitted using sbatch command. Let’s try running following slurm script.</description>
-    <pubDate>Mon, 06 Jan 2025 10:19:00 GMT</pubDate>
+    <title>find-command</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/spack/find-command</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/spack/find-command</guid>
+    <description>spack find find command is used to find the specified package. It can take options like -l for showing hashes for the package and its dependencies, -f for showing the compiler being used to compile the package and its dependencies.</description>
+    <pubDate>Tue, 11 Mar 2025 13:15:00 GMT</pubDate>
   </item><item>
-    <title>slurm-overview</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/slurm/slurm-overview</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/slurm/slurm-overview</guid>
-    <description>Slurm Slurm is a fault-tolerant, highly scalable cluster management and job scheduling system for large and small linux clusters. As a workload manager, it handles allocation of resources, scheduling and monitoring jobs.</description>
-    <pubDate>Mon, 06 Jan 2025 07:45:00 GMT</pubDate>
+    <title>deployments</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/deployments</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/deployments</guid>
+    <description>Deployments Deployment make sure that the pods are updated without hampering the access to the services. It makes the updates like rolling updates and rollbacks to previous version seamless as all the pods in deployments are not updated all at once.</description>
+    <pubDate>Tue, 25 Feb 2025 17:12:00 GMT</pubDate>
   </item><item>
-    <title>dunder-functions</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/dunder-functions</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/dunder-functions</guid>
-    <description>Dunder Functions Dunder word is taken by composing “Double” and “Underscore”. So, dunder functions are functions that start and end with double underscores.</description>
-    <pubDate>Mon, 16 Dec 2024 15:01:00 GMT</pubDate>
+    <title>replicaset</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/replicaset</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/replicaset</guid>
+    <description>ReplicaSet Replicaset is same as ReplicationController and came after it. The only different is the spec.selector section and it recreates the already existing pods if they get terminated.</description>
+    <pubDate>Mon, 24 Feb 2025 11:10:00 GMT</pubDate>
   </item><item>
-    <title>attributes-vs-properties</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/attributes-vs-properties</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/attributes-vs-properties</guid>
-    <description>Attributes Vs Properties class Person(): def __init__(self): self._name = &quot;test&quot; @property def name(self): return self._name @name.setter def name(self, value): ...</description>
-    <pubDate>Thu, 12 Dec 2024 16:18:00 GMT</pubDate>
+    <title>replication-controller</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/replication-controller</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/replication-controller</guid>
+    <description>Replication Controller This is the old technology used in kubernetes that is replaced with Replica Set. It is used to make sure that specified number of pods are running for an application.</description>
+    <pubDate>Mon, 24 Feb 2025 06:50:00 GMT</pubDate>
   </item><item>
-    <title>diagnostics-local</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/diagnostics-local</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/diagnostics-local</guid>
-    <description>import dask.array as da from dask.diagnostics import ProgressBar a = da.arange(10000, chunks=(100)) a &lt;tr&gt; &lt;th&gt; Bytes &lt;/th&gt; &lt;td&gt; 78.12 kiB &lt;/td&gt; ...</description>
-    <pubDate>Mon, 09 Dec 2024 18:14:37 GMT</pubDate>
+    <title>useful-commands</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/useful-commands</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/useful-commands</guid>
+    <description>Useful Kubernetes commands CommandDescriptionkubectl edit pod &lt;podname&gt;Opens up the yml file of the pod to edit.</description>
+    <pubDate>Sun, 23 Feb 2025 17:22:00 GMT</pubDate>
   </item><item>
-    <title>exploration</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/exploration</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/exploration</guid>
-    <description>import dask.array as da import dask x = da.ones(1000, chunks=(100,)).sum() dask.visualize(x) .</description>
-    <pubDate>Mon, 09 Dec 2024 18:14:36 GMT</pubDate>
+    <title>yml-file</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/yml-file</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/yml-file</guid>
+    <description>YML File YML file is used to define any object in kubernetes. It has following basic and mandatory fields. apiVersion: v1 kind: Pod metadata: name: mypod labels: type: frontend spec: containers: - name: nginx-container image: nginx apiVersion tells which api version to use for a particular resource.</description>
+    <pubDate>Sun, 23 Feb 2025 13:11:00 GMT</pubDate>
   </item><item>
-    <title>ordering</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/ordering</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/ordering</guid>
-    <description>import dask.array as da import dask from dask.distributed import Client, performance_report x = da.zeros((12500, 10000), chunks=(&#039;10MB&#039;, -1)) x &lt;tr&gt; &lt;th&gt; ...</description>
-    <pubDate>Mon, 09 Dec 2024 18:14:36 GMT</pubDate>
+    <title>architectural-components</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/architectural-components</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/architectural-components</guid>
+    <description>Kubernetes Architecture Kubernetes architecture comprises following components. Sr.ComponentDescription1.API serverIt acts as a frontend to kubernetes cluster.All the cli commands talk to kubernetes using this API server.2.etcdIt is a distributed key-value database to store the nodes information required to manage the cluster.It is responsible for implementing the locks to make sure there are no conflicts between the masters.</description>
+    <pubDate>Fri, 21 Feb 2025 06:26:00 GMT</pubDate>
   </item><item>
-    <title>optimization-custom-graphs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/optimization-custom-graphs</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/dask/notebooks/optimization-custom-graphs</guid>
-    <description>import dask from dask.distributed import Client import dask.array as da import xarray as xr import numpy as np from dask.threaded import get from dask.highlevelgraph import HighLevelGraph ...</description>
-    <pubDate>Mon, 09 Dec 2024 18:14:35 GMT</pubDate>
+    <title>master-vs-worker-nodes</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/master-vs-worker-nodes</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/master-vs-worker-nodes</guid>
+    <description>Master Vs Worker nodes Master nodes has following components: kube-apiserver: it talks to kubelet on worker nodes to manage them. etcd: it is key-value pair storage which stores nodes information and other information.</description>
+    <pubDate>Fri, 21 Feb 2025 06:22:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
