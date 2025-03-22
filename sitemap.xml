@@ -332,6 +332,9 @@
     <loc>https://nitinsharmacs.github.io/notes/operating-systems/what-is-os</loc>
     <lastmod>2024-09-27T06:28:39.401Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/calibration/interferometric-errors</loc>
+    <lastmod>2025-03-17T05:07:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/radio-astronomy/deconvolution/casa-deconvolution</loc>
     <lastmod>2024-09-11T06:09:00.000Z</lastmod>
   </url><url>
@@ -596,17 +599,53 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/architectural-components</loc>
     <lastmod>2025-02-21T06:26:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/clusterip-service</loc>
+    <lastmod>2025-03-17T10:32:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/command-and-args</loc>
+    <lastmod>2025-03-21T11:42:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/config-maps</loc>
+    <lastmod>2025-03-21T12:08:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/deployment-strategy</loc>
+    <lastmod>2025-03-16T17:38:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/deployment-upgrades</loc>
+    <lastmod>2025-03-16T17:44:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/deployments</loc>
     <lastmod>2025-02-25T17:12:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/imperative-commands</loc>
+    <lastmod>2025-03-20T11:07:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/loadbalancer-service</loc>
+    <lastmod>2025-03-17T11:13:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/master-vs-worker-nodes</loc>
     <lastmod>2025-02-21T06:22:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespace</loc>
+    <lastmod>2025-03-20T10:22:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/nodeport-service</loc>
+    <lastmod>2025-03-17T10:30:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/replicaset</loc>
     <lastmod>2025-02-24T11:10:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/replication-controller</loc>
     <lastmod>2025-02-24T06:50:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/resource-quota</loc>
+    <lastmod>2025-03-20T10:43:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/rollout</loc>
+    <lastmod>2025-03-16T17:32:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/services</loc>
+    <lastmod>2025-03-17T09:42:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/useful-commands</loc>
     <lastmod>2025-02-23T17:22:00.000Z</lastmod>
@@ -719,6 +758,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/view</loc>
     <lastmod>2024-04-30T09:11:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/shell-commands/arp</loc>
+    <lastmod>2025-03-16T17:27:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/singularity/container-fs</loc>
     <lastmod>2024-08-23T05:46:00.000Z</lastmod>
   </url><url>
@@ -734,6 +776,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/slurm/slurm-overview</loc>
     <lastmod>2025-01-06T07:45:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/spack/create-package-recipe</loc>
+    <lastmod>2025-03-13T11:23:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/spack/dependencies-graph</loc>
     <lastmod>2025-03-11T13:32:00.000Z</lastmod>
   </url><url>
@@ -742,6 +787,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/spack/loading-unloading-packages</loc>
     <lastmod>2025-03-12T07:23:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/spack/spec</loc>
+    <lastmod>2025-03-13T05:42:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/xarray-cuda/xarray-cuda</loc>
     <lastmod>2024-09-05T11:57:00.000Z</lastmod>
