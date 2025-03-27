@@ -599,6 +599,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/architectural-components</loc>
     <lastmod>2025-02-21T06:26:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/at-rest-encryption</loc>
+    <lastmod>2025-03-27T05:44:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/clusterip-service</loc>
     <lastmod>2025-03-17T10:32:00.000Z</lastmod>
   </url><url>
@@ -643,6 +646,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/rollout</loc>
     <lastmod>2025-03-16T17:32:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/secrets</loc>
+    <lastmod>2025-03-24T15:31:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/services</loc>
     <lastmod>2025-03-17T09:42:00.000Z</lastmod>

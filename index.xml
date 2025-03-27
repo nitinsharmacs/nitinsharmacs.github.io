@@ -6,6 +6,18 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>at-rest-encryption</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/at-rest-encryption</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/at-rest-encryption</guid>
+    <description>Encryption at REST-API Kubernetes stores key value pair data inside etcd in plain text format which can be easily comprehended by anyone who has access to to it ...</description>
+    <pubDate>Thu, 27 Mar 2025 05:44:00 GMT</pubDate>
+  </item><item>
+    <title>secrets</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/secrets</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/secrets</guid>
+    <description>Secrets Secrets are similar to ConfigMaps which stores confidential data. These are used to pass passwords, keys, etc to the pods. Create Secrets Secrets can be created using imperative (command) and using resource yam file.</description>
+    <pubDate>Mon, 24 Mar 2025 15:31:00 GMT</pubDate>
+  </item><item>
     <title>config-maps</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/config-maps</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/config-maps</guid>
@@ -53,18 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/nodeport-service</guid>
     <description>NodePort service NodePort service enables the external access to pod running inside the node. Let’s say we have nginx pod running inside a single node cluster and we want to access it, we would need to ssh inside the node and then do the curl.</description>
     <pubDate>Mon, 17 Mar 2025 10:30:00 GMT</pubDate>
-  </item><item>
-    <title>services</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/services</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/services</guid>
-    <description>Services A service is a kubernetes resource which provides external access to pods running in nodes and communication among the nodes. There are three types of services NodePort service ClusterIP service Loadbalancer service .</description>
-    <pubDate>Mon, 17 Mar 2025 09:42:00 GMT</pubDate>
-  </item><item>
-    <title>interferometric-errors</title>
-    <link>https://nitinsharmacs.github.io/notes/radio-astronomy/calibration/interferometric-errors</link>
-    <guid>https://nitinsharmacs.github.io/notes/radio-astronomy/calibration/interferometric-errors</guid>
-    <description>Three types of errors to cope using calibration. propagate errors: atmospheric components. geometric errors: positions of dishes. instrumental errors .</description>
-    <pubDate>Mon, 17 Mar 2025 05:07:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
