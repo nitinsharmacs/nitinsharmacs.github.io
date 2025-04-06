@@ -6,6 +6,42 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>init-containers</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/init-containers</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/init-containers</guid>
+    <description>Init Containers Init containers are used to run containers in the beginning of pod starting. These containers get finished and then actual containers get started.</description>
+    <pubDate>Sun, 06 Apr 2025 18:26:00 GMT</pubDate>
+  </item><item>
+    <title>node-affinity</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-affinity</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-affinity</guid>
+    <description>Node Affinity Node affinity provides advance functionality to place pods on nodes selectively. We can provide quite complicated conditions to decide where the pod can be scheduled.</description>
+    <pubDate>Thu, 03 Apr 2025 18:47:00 GMT</pubDate>
+  </item><item>
+    <title>node-selectors</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-selectors</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-selectors</guid>
+    <description>Node Selectors Node selectors are used assign pods to specific nodes. Pods are assigned by selecting the nodes using labels. apiVersion: v1 kind: Pod metadata: name: nginx spec: containers: - name: nginx image: nginx nodeSelector: - type: powerful With this, pod can be assigned to any node with label type=powerful.</description>
+    <pubDate>Thu, 03 Apr 2025 16:08:00 GMT</pubDate>
+  </item><item>
+    <title>taints-tolerances</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/taints-tolerances</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/taints-tolerances</guid>
+    <description>Taints and Tolerances Default Scheduler assigns pods to the available nodes with ample resources. However, we can restrict what pods can be assigned to what nodes using taints.</description>
+    <pubDate>Thu, 03 Apr 2025 15:41:00 GMT</pubDate>
+  </item><item>
+    <title>limit-range</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/limit-range</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/limit-range</guid>
+    <description>Limit Range Limit range defines the default and limit resource values for cpu and memory for a namespace. cpu-limit-range.yaml apiVersion: v1 kind: LimitRange metadata: name: cpu-limit-range namespace: learning spec: limits: - default: cpu: 500m defaultRequest: cpu: 200m min: cpu: 100m max: cpu: &quot;1&quot; type: Container We can specify same for memory also.</description>
+    <pubDate>Wed, 02 Apr 2025 12:25:00 GMT</pubDate>
+  </item><item>
+    <title>service-accounts</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/service-accounts</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/service-accounts</guid>
+    <description>Service Accounts Service accounts are used to access kubernetes services through APIs by other software programs. For example, a prometheus service to watch the resources matrices etc.</description>
+    <pubDate>Sun, 30 Mar 2025 16:30:00 GMT</pubDate>
+  </item><item>
     <title>security-contexts</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/security-contexts</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/security-contexts</guid>
@@ -29,42 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/config-maps</guid>
     <description>ConfigMap ConfigMap stores key value pair configurations. Creating ConfigMap A ConfigMap can be created using imperative command and in a declarative way using resource yaml file.</description>
     <pubDate>Fri, 21 Mar 2025 12:08:00 GMT</pubDate>
-  </item><item>
-    <title>command-and-args</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/command-and-args</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/command-and-args</guid>
-    <description>Command and Args Docker container contains ENTRYPOINT and CMD which start when container starts. These can be modified in kubernetes in pod definition file.</description>
-    <pubDate>Fri, 21 Mar 2025 11:42:00 GMT</pubDate>
-  </item><item>
-    <title>imperative-commands</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/imperative-commands</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/imperative-commands</guid>
-    <description>This document is as it is taken from Udemy course. Imperative Commands While you would be working mostly the declarative way - using definition files, imperative commands can help in getting one-time tasks done quickly, as well as generate a definition template easily.</description>
-    <pubDate>Thu, 20 Mar 2025 11:07:00 GMT</pubDate>
-  </item><item>
-    <title>resource-quota</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/resource-quota</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/resource-quota</guid>
-    <description>Resource Quota Resource Quota is used to limit resources in a namespace. It can be defined used resource yaml file. apiVersion: v1 kind: ResourceQuota metadata: name: compute-resources namespace: dev spec: hard: pods: &quot;10&quot; requests.cpu: &quot;2&quot; requests.memory: 2Gi limits.cpu: &quot;2&quot; limits.memory: 10Gi We need to specify resources in pod definition file if some resource quota is present in a namespace and is being use by pod.</description>
-    <pubDate>Thu, 20 Mar 2025 10:43:00 GMT</pubDate>
-  </item><item>
-    <title>namespace</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespace</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespace</guid>
-    <description>Namespace A namespace is a mechanism to isolate a group of resources in kubernetes. It defines resource quotas, policies etc that apply on the pods and other resources being created in that namespace.</description>
-    <pubDate>Thu, 20 Mar 2025 10:22:00 GMT</pubDate>
-  </item><item>
-    <title>loadbalancer-service</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/loadbalancer-service</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/loadbalancer-service</guid>
-    <description>LoadBalancer Service This service is useful when there are multiple pods of same application running and the load has to be distributed among all the pods ...</description>
-    <pubDate>Mon, 17 Mar 2025 11:13:00 GMT</pubDate>
-  </item><item>
-    <title>clusterip-service</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/clusterip-service</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/clusterip-service</guid>
-    <description>ClusterIP Service This service is required when we need communication among the pods running inside nodes in a cluster. Pods get assign IP addresses which usually change during their life cycle.</description>
-    <pubDate>Mon, 17 Mar 2025 10:32:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -623,6 +623,12 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/imperative-commands</loc>
     <lastmod>2025-03-20T11:07:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/init-containers</loc>
+    <lastmod>2025-04-06T18:26:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/limit-range</loc>
+    <lastmod>2025-04-02T12:25:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/loadbalancer-service</loc>
     <lastmod>2025-03-17T11:13:00.000Z</lastmod>
   </url><url>
@@ -631,6 +637,12 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespace</loc>
     <lastmod>2025-03-20T10:22:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-affinity</loc>
+    <lastmod>2025-04-03T18:47:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-selectors</loc>
+    <lastmod>2025-04-03T16:08:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/nodeport-service</loc>
     <lastmod>2025-03-17T10:30:00.000Z</lastmod>
@@ -653,8 +665,14 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/security-contexts</loc>
     <lastmod>2025-03-27T18:21:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/service-accounts</loc>
+    <lastmod>2025-03-30T16:30:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/services</loc>
     <lastmod>2025-03-17T09:42:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/taints-tolerances</loc>
+    <lastmod>2025-04-03T15:41:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/useful-commands</loc>
     <lastmod>2025-02-23T17:22:00.000Z</lastmod>
