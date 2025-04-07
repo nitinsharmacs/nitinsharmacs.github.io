@@ -8,10 +8,12 @@ function clean_public() {
 
 
 function build() {
-		npx quartz build -v --concurrency 4 --output ./build
-		mv ./build/* ./public
-		cp googleb336269767bb6f1c.html ./public
-		rmdir ./build
+    cd ./quartz/
+    npx quartz build -v --concurrency 4 --output ./build
+    mv ./build/* ../public
+    cp ../googleb336269767bb6f1c.html ../public
+    rmdir ./build
+    cd ..
 }
 
 

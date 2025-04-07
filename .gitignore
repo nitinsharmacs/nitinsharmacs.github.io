@@ -2,11 +2,6 @@
 .gitignore
 node_modules
 public
-prof
-tsconfig.tsbuildinfo
 .obsidian
-.quartz-cache
-private/
-.replit
-replit.nix
 googleb336269767bb6f1c.html
+quartz/

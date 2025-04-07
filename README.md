@@ -1,18 +1,13 @@
-# Quartz v4
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## `bitPhile`
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+A knowledge repository where I add my daily notes on tech I read and blogs I create, and other content.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
-## Sponsors
+## Dependency
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+It requires [quartz](https://github.com/jackyzha0/quartz) to build bitPhile pages.
+
+Once cloned this repository, you required to clone quartz as well in project root. You also need to install the node modules after clonning quartz.
+
