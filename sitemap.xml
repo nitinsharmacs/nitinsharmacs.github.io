@@ -24,7 +24,7 @@
     <lastmod>2023-08-15T08:19:50.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/</loc>
-    <lastmod>2024-09-12T06:27:11.436Z</lastmod>
+    <lastmod>2025-04-07T13:13:50.258Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/book-reviews/design-of-everyday-things</loc>
     <lastmod>2023-10-09T06:03:00.000Z</lastmod>
@@ -629,6 +629,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/limit-range</loc>
     <lastmod>2025-04-02T12:25:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/liveness-probe</loc>
+    <lastmod>2025-04-07T07:22:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/loadbalancer-service</loc>
     <lastmod>2025-03-17T11:13:00.000Z</lastmod>
   </url><url>
@@ -646,6 +649,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/nodeport-service</loc>
     <lastmod>2025-03-17T10:30:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/readiness-probe</loc>
+    <lastmod>2025-04-07T07:08:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/replicaset</loc>
     <lastmod>2025-02-24T11:10:00.000Z</lastmod>
