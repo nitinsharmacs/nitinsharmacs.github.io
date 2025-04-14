@@ -6,6 +6,42 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>cron</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/linux/cron</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/linux/cron</guid>
+    <description>Cron We can setup commands to be called repeatedly using crontab command.</description>
+    <pubDate>Mon, 14 Apr 2025 15:01:00 GMT</pubDate>
+  </item><item>
+    <title>cronjob</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/cronjob</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/cronjob</guid>
+    <description>CronJob CronJobs are jobs which run repeatedly defined by the schedule.</description>
+    <pubDate>Mon, 14 Apr 2025 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>job</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/job</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/job</guid>
+    <description>Job A job represent a task that starts, does something and finishes.</description>
+    <pubDate>Sun, 13 Apr 2025 11:27:00 GMT</pubDate>
+  </item><item>
+    <title>canary-deployment</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/canary-deployment</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/canary-deployment</guid>
+    <description>Canary deployment In canary deployment strategy, a small number of pods or just a single pod is run for new deployment alongside the old one, and so only a small number of traffic goes to new deployment.</description>
+    <pubDate>Sun, 13 Apr 2025 11:12:00 GMT</pubDate>
+  </item><item>
+    <title>blue-green-deployments</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/blue-green-deployments</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/blue-green-deployments</guid>
+    <description>Blue Green Deployment In blue green deployment strategy, the new version of deployment is run alongside the old one, although the requests are going to old version, some tests are performed on new version and if it accepted, all the traffic is send to new version.</description>
+    <pubDate>Sun, 13 Apr 2025 11:09:00 GMT</pubDate>
+  </item><item>
+    <title>labels-and-selectors</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/labels-and-selectors</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/labels-and-selectors</guid>
+    <description>Labels and Selectors Labels are the information assigned to kubernetes resources for the purpose of categorizing and distinguishing.</description>
+    <pubDate>Wed, 09 Apr 2025 12:51:00 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://nitinsharmacs.github.io/</link>
     <guid>https://nitinsharmacs.github.io/</guid>
@@ -29,42 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/init-containers</guid>
     <description>Init Containers Init containers are used to run containers in the beginning of pod starting.</description>
     <pubDate>Sun, 06 Apr 2025 18:26:00 GMT</pubDate>
-  </item><item>
-    <title>node-affinity</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-affinity</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-affinity</guid>
-    <description>Node Affinity Node affinity provides advance functionality to place pods on nodes selectively.</description>
-    <pubDate>Thu, 03 Apr 2025 18:47:00 GMT</pubDate>
-  </item><item>
-    <title>node-selectors</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-selectors</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-selectors</guid>
-    <description>Node Selectors Node selectors are used assign pods to specific nodes. Pods are assigned by selecting the nodes using labels.</description>
-    <pubDate>Thu, 03 Apr 2025 16:08:00 GMT</pubDate>
-  </item><item>
-    <title>taints-tolerances</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/taints-tolerances</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/taints-tolerances</guid>
-    <description>Taints and Tolerances Default Scheduler assigns pods to the available nodes with ample resources.</description>
-    <pubDate>Thu, 03 Apr 2025 15:41:00 GMT</pubDate>
-  </item><item>
-    <title>limit-range</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/limit-range</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/limit-range</guid>
-    <description>Limit Range Limit range defines the default and limit resource values for cpu and memory for a namespace.</description>
-    <pubDate>Wed, 02 Apr 2025 12:25:00 GMT</pubDate>
-  </item><item>
-    <title>service-accounts</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/service-accounts</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/service-accounts</guid>
-    <description>Service Accounts Service accounts are used to access kubernetes services through APIs by other software programs.</description>
-    <pubDate>Sun, 30 Mar 2025 16:30:00 GMT</pubDate>
-  </item><item>
-    <title>security-contexts</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/security-contexts</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/security-contexts</guid>
-    <description>Security Contexts For some background, containers share the host kernel but they run in their namespace managed by docker.</description>
-    <pubDate>Thu, 27 Mar 2025 18:21:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
