@@ -6,65 +6,65 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>cron</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/linux/cron</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/linux/cron</guid>
-    <description>Cron We can setup commands to be called repeatedly using crontab command.</description>
-    <pubDate>Mon, 14 Apr 2025 15:01:00 GMT</pubDate>
+    <title>statefulsets</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/statefulsets</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/statefulsets</guid>
+    <description>StatefulSets StatefulSets are similar to Deployment with features like Ordered creation and deletion of pods Unique network identity and name and other features.</description>
+    <pubDate>Tue, 06 May 2025 05:24:00 GMT</pubDate>
   </item><item>
-    <title>cronjob</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/cronjob</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/cronjob</guid>
-    <description>CronJob CronJobs are jobs which run repeatedly defined by the schedule.</description>
-    <pubDate>Mon, 14 Apr 2025 15:00:00 GMT</pubDate>
+    <title>storage-provisioning</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-provisioning</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-provisioning</guid>
+    <description>Storage Provisioning There can be two types of provisioning, static dynamic Static where we create pv and setup all the volume configurations such as which volume implementation to use (volume plugin) etc, manually.</description>
+    <pubDate>Thu, 24 Apr 2025 06:55:00 GMT</pubDate>
   </item><item>
-    <title>job</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/job</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/job</guid>
-    <description>Job A job represent a task that starts, does something and finishes.</description>
-    <pubDate>Sun, 13 Apr 2025 11:27:00 GMT</pubDate>
+    <title>storage-class</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-class</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-class</guid>
+    <description>StorageClass StorageClass provides a way to assign persistent volume to any persistent volume claim dynamically.</description>
+    <pubDate>Wed, 23 Apr 2025 18:54:00 GMT</pubDate>
   </item><item>
-    <title>canary-deployment</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/canary-deployment</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/canary-deployment</guid>
-    <description>Canary deployment In canary deployment strategy, a small number of pods or just a single pod is run for new deployment alongside the old one, and so only a small number of traffic goes to new deployment.</description>
-    <pubDate>Sun, 13 Apr 2025 11:12:00 GMT</pubDate>
+    <title>volume-access-modes</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/sandbox/volume-access-modes</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/sandbox/volume-access-modes</guid>
+    <description>Testing volume access modes ReadWriteMany Pods on different nodes can write simultaneously.</description>
+    <pubDate>Tue, 22 Apr 2025 07:27:00 GMT</pubDate>
   </item><item>
-    <title>blue-green-deployments</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/blue-green-deployments</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/blue-green-deployments</guid>
-    <description>Blue Green Deployment In blue green deployment strategy, the new version of deployment is run alongside the old one, although the requests are going to old version, some tests are performed on new version and if it accepted, all the traffic is send to new version.</description>
-    <pubDate>Sun, 13 Apr 2025 11:09:00 GMT</pubDate>
+    <title>pv-access-modes</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/pv-access-modes</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/pv-access-modes</guid>
+    <description>Access Modes There are different type of access modes: ReadWriteOnce ReadOnlyMany ReadWriteMany Resources kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes .</description>
+    <pubDate>Mon, 21 Apr 2025 18:50:00 GMT</pubDate>
   </item><item>
-    <title>labels-and-selectors</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/labels-and-selectors</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/labels-and-selectors</guid>
-    <description>Labels and Selectors Labels are the information assigned to kubernetes resources for the purpose of categorizing and distinguishing.</description>
-    <pubDate>Wed, 09 Apr 2025 12:51:00 GMT</pubDate>
+    <title>persistent-volume-claim</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume-claim</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume-claim</guid>
+    <description>Persistent Volume Claim Persistent Volume claim is a request made for persistent volume. It consumes the storage provided by persistent volume.</description>
+    <pubDate>Mon, 21 Apr 2025 18:37:00 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://nitinsharmacs.github.io/</link>
-    <guid>https://nitinsharmacs.github.io/</guid>
-    <description>bitPhile A knowledge repository where I add my daily notes on tech I read and blogs I create, and other content.</description>
-    <pubDate>Mon, 07 Apr 2025 13:13:50 GMT</pubDate>
+    <title>persistent-volume</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume</guid>
+    <description>Persistent Volume Persistent volume is an independent storage resource with its own life cycle in kubernetes.</description>
+    <pubDate>Mon, 21 Apr 2025 18:29:00 GMT</pubDate>
   </item><item>
-    <title>liveness-probe</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/liveness-probe</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/liveness-probe</guid>
-    <description>Liveness Probe Liveness probe is used to check if containers or apps in pods are healthy and still able to take requests.</description>
-    <pubDate>Mon, 07 Apr 2025 07:22:00 GMT</pubDate>
+    <title>volumes</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/volumes</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/volumes</guid>
+    <description>Volumes Similar to docker volumes, containers inside pod in kubernetes can also have volumes in specification.</description>
+    <pubDate>Mon, 21 Apr 2025 06:36:00 GMT</pubDate>
   </item><item>
-    <title>readiness-probe</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/readiness-probe</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/readiness-probe</guid>
-    <description>Readiness Probe Readiness probe is used to specify the information which kubernetes can use to check if containers in pods are ready to serve or not.</description>
-    <pubDate>Mon, 07 Apr 2025 07:08:00 GMT</pubDate>
+    <title>rsync</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/shell-commands/rsync</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/shell-commands/rsync</guid>
+    <description>rsync rsync [options] &lt;source&gt; &lt;destination&gt; Synchronizes destination with source where either of them can be remote, not both.</description>
+    <pubDate>Mon, 21 Apr 2025 05:42:00 GMT</pubDate>
   </item><item>
-    <title>init-containers</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/init-containers</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/init-containers</guid>
-    <description>Init Containers Init containers are used to run containers in the beginning of pod starting.</description>
-    <pubDate>Sun, 06 Apr 2025 18:26:00 GMT</pubDate>
+    <title>ingress</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/ingress</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/ingress</guid>
+    <description>Ingress Ingress is a routing mechanism to services running inside kubernetes cluster.</description>
+    <pubDate>Tue, 15 Apr 2025 15:17:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

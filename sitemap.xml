@@ -632,6 +632,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/imperative-commands</loc>
     <lastmod>2025-03-20T11:07:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/ingress</loc>
+    <lastmod>2025-04-15T15:17:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/init-containers</loc>
     <lastmod>2025-04-06T18:26:00.000Z</lastmod>
   </url><url>
@@ -665,6 +668,15 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/nodeport-service</loc>
     <lastmod>2025-03-17T10:30:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume-claim</loc>
+    <lastmod>2025-04-21T18:37:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume</loc>
+    <lastmod>2025-04-21T18:29:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/pv-access-modes</loc>
+    <lastmod>2025-04-21T18:50:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/readiness-probe</loc>
     <lastmod>2025-04-07T07:08:00.000Z</lastmod>
   </url><url>
@@ -680,6 +692,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/rollout</loc>
     <lastmod>2025-03-16T17:32:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/sandbox/volume-access-modes</loc>
+    <lastmod>2025-04-22T07:27:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/secrets</loc>
     <lastmod>2025-03-24T15:31:00.000Z</lastmod>
   </url><url>
@@ -692,11 +707,23 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/services</loc>
     <lastmod>2025-03-17T09:42:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/statefulsets</loc>
+    <lastmod>2025-05-06T05:24:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-class</loc>
+    <lastmod>2025-04-23T18:54:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-provisioning</loc>
+    <lastmod>2025-04-24T06:55:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/taints-tolerances</loc>
     <lastmod>2025-04-03T15:41:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/useful-commands</loc>
     <lastmod>2025-02-23T17:22:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/volumes</loc>
+    <lastmod>2025-04-21T06:36:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/yml-file</loc>
     <lastmod>2025-02-23T13:11:00.000Z</lastmod>
@@ -811,6 +838,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/shell-commands/arp</loc>
     <lastmod>2025-03-16T17:27:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/shell-commands/rsync</loc>
+    <lastmod>2025-04-21T05:42:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/singularity/container-fs</loc>
     <lastmod>2024-08-23T05:46:00.000Z</lastmod>
