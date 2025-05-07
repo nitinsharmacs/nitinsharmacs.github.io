@@ -6,6 +6,18 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>storage-in-statefulsets</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-in-statefulsets</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-in-statefulsets</guid>
+    <description>Storage in StatefulSets Persistent volume claim can be used for storage in StatefulSets.</description>
+    <pubDate>Wed, 07 May 2025 18:26:00 GMT</pubDate>
+  </item><item>
+    <title>headless-service</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/headless-service</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/headless-service</guid>
+    <description>Headless Service A headless service is a service with ClusterIP set to None.</description>
+    <pubDate>Tue, 06 May 2025 16:43:00 GMT</pubDate>
+  </item><item>
     <title>statefulsets</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/statefulsets</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/statefulsets</guid>
@@ -53,18 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/volumes</guid>
     <description>Volumes Similar to docker volumes, containers inside pod in kubernetes can also have volumes in specification.</description>
     <pubDate>Mon, 21 Apr 2025 06:36:00 GMT</pubDate>
-  </item><item>
-    <title>rsync</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/shell-commands/rsync</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/shell-commands/rsync</guid>
-    <description>rsync rsync [options] &lt;source&gt; &lt;destination&gt; Synchronizes destination with source where either of them can be remote, not both.</description>
-    <pubDate>Mon, 21 Apr 2025 05:42:00 GMT</pubDate>
-  </item><item>
-    <title>ingress</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/ingress</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/ingress</guid>
-    <description>Ingress Ingress is a routing mechanism to services running inside kubernetes cluster.</description>
-    <pubDate>Tue, 15 Apr 2025 15:17:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
