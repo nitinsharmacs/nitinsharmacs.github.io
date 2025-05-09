@@ -6,6 +6,42 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>role-based-access-controls</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/role-based-access-controls</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/role-based-access-controls</guid>
+    <description></description>
+    <pubDate>Fri, 09 May 2025 19:21:00 GMT</pubDate>
+  </item><item>
+    <title>Basic Authentication using file in kube-apiserver</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/basic-auth-file-kube-apiserver</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/basic-auth-file-kube-apiserver</guid>
+    <description>Deprecated basic authentication using password and token files.</description>
+    <pubDate>Fri, 09 May 2025 19:07:00 GMT</pubDate>
+  </item><item>
+    <title>Auth Mechanism in kube-apiserver</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-auth</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-auth</guid>
+    <description>This note details about authentication mechanism implemented in kube-apiserver to enable external communication to kubernetes clusters. Authentication mechanisms like deprecated static password and token files, certificates, and identity services like LDAP.</description>
+    <pubDate>Fri, 09 May 2025 18:29:00 GMT</pubDate>
+  </item><item>
+    <title>Mount Secret as Volume</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/secret-volume</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/secret-volume</guid>
+    <description>This note details using volume of type secret. How can we mount secret volumes.</description>
+    <pubDate>Thu, 08 May 2025 18:46:00 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://nitinsharmacs.github.io/</link>
+    <guid>https://nitinsharmacs.github.io/</guid>
+    <description>bitPhile A knowledge repository where I add my daily notes on tech I read and blogs I create, and other content.</description>
+    <pubDate>Thu, 08 May 2025 16:42:47 GMT</pubDate>
+  </item><item>
+    <title>Volume of type Configmap</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/configmap-volume</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/configmap-volume</guid>
+    <description>This note details using volume of type configmap. How can we mount configmap volumes.</description>
+    <pubDate>Thu, 08 May 2025 16:35:00 GMT</pubDate>
+  </item><item>
     <title>storage-in-statefulsets</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-in-statefulsets</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-in-statefulsets</guid>
@@ -29,42 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-provisioning</guid>
     <description>Storage Provisioning There can be two types of provisioning, static dynamic Static where we create pv and setup all the volume configurations such as which volume implementation to use (volume plugin) etc, manually.</description>
     <pubDate>Thu, 24 Apr 2025 06:55:00 GMT</pubDate>
-  </item><item>
-    <title>storage-class</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-class</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-class</guid>
-    <description>StorageClass StorageClass provides a way to assign persistent volume to any persistent volume claim dynamically.</description>
-    <pubDate>Wed, 23 Apr 2025 18:54:00 GMT</pubDate>
-  </item><item>
-    <title>volume-access-modes</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/sandbox/volume-access-modes</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/sandbox/volume-access-modes</guid>
-    <description>Testing volume access modes ReadWriteMany Pods on different nodes can write simultaneously.</description>
-    <pubDate>Tue, 22 Apr 2025 07:27:00 GMT</pubDate>
-  </item><item>
-    <title>pv-access-modes</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/pv-access-modes</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/pv-access-modes</guid>
-    <description>Access Modes There are different type of access modes: ReadWriteOnce ReadOnlyMany ReadWriteMany Resources kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes .</description>
-    <pubDate>Mon, 21 Apr 2025 18:50:00 GMT</pubDate>
-  </item><item>
-    <title>persistent-volume-claim</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume-claim</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume-claim</guid>
-    <description>Persistent Volume Claim Persistent Volume claim is a request made for persistent volume. It consumes the storage provided by persistent volume.</description>
-    <pubDate>Mon, 21 Apr 2025 18:37:00 GMT</pubDate>
-  </item><item>
-    <title>persistent-volume</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/persistent-volume</guid>
-    <description>Persistent Volume Persistent volume is an independent storage resource with its own life cycle in kubernetes.</description>
-    <pubDate>Mon, 21 Apr 2025 18:29:00 GMT</pubDate>
-  </item><item>
-    <title>volumes</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/volumes</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/volumes</guid>
-    <description>Volumes Similar to docker volumes, containers inside pod in kubernetes can also have volumes in specification.</description>
-    <pubDate>Mon, 21 Apr 2025 06:36:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -24,7 +24,7 @@
     <lastmod>2023-08-15T08:19:50.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/</loc>
-    <lastmod>2025-04-07T13:13:50.258Z</lastmod>
+    <lastmod>2025-05-08T16:42:47.633Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/book-reviews/design-of-everyday-things</loc>
     <lastmod>2023-10-09T06:03:00.000Z</lastmod>
@@ -602,6 +602,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/at-rest-encryption</loc>
     <lastmod>2025-03-27T05:44:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/basic-auth-file-kube-apiserver</loc>
+    <lastmod>2025-05-09T19:07:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/blue-green-deployments</loc>
     <lastmod>2025-04-13T11:09:00.000Z</lastmod>
   </url><url>
@@ -616,6 +619,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/config-maps</loc>
     <lastmod>2025-03-21T12:08:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/configmap-volume</loc>
+    <lastmod>2025-05-08T16:35:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/cronjob</loc>
     <lastmod>2025-04-14T15:00:00.000Z</lastmod>
@@ -643,6 +649,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/job</loc>
     <lastmod>2025-04-13T11:27:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-auth</loc>
+    <lastmod>2025-05-09T18:29:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/labels-and-selectors</loc>
     <lastmod>2025-04-09T12:51:00.000Z</lastmod>
@@ -692,11 +701,17 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/resource-quota</loc>
     <lastmod>2025-03-20T10:43:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/role-based-access-controls</loc>
+    <lastmod>2025-05-09T19:21:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/rollout</loc>
     <lastmod>2025-03-16T17:32:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/sandbox/volume-access-modes</loc>
     <lastmod>2025-04-22T07:27:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/secret-volume</loc>
+    <lastmod>2025-05-08T18:46:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/secrets</loc>
     <lastmod>2025-03-24T15:31:00.000Z</lastmod>
