@@ -24,7 +24,7 @@
     <lastmod>2023-08-15T08:19:50.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/</loc>
-    <lastmod>2025-05-08T16:42:47.633Z</lastmod>
+    <lastmod>2024-02-01T04:30:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/book-reviews/design-of-everyday-things</loc>
     <lastmod>2023-10-09T06:03:00.000Z</lastmod>
@@ -652,6 +652,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-auth</loc>
     <lastmod>2025-05-09T18:29:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubeconfig</loc>
+    <lastmod>2025-05-10T07:42:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/labels-and-selectors</loc>
     <lastmod>2025-04-09T12:51:00.000Z</lastmod>
