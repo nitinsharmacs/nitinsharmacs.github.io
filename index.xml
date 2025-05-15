@@ -6,65 +6,65 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>cluster-role-and-bindings</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/cluster-role-and-bindings</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/cluster-role-and-bindings</guid>
+    <description></description>
+    <pubDate>Mon, 12 May 2025 14:25:00 GMT</pubDate>
+  </item><item>
+    <title>Namespaced Role and RoleBinding</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespaced-role-and-bindings</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespaced-role-and-bindings</guid>
+    <description>Role and RoleBinding is used to create roles and bindings in particular namespaces.</description>
+    <pubDate>Mon, 12 May 2025 14:21:00 GMT</pubDate>
+  </item><item>
+    <title>Access kubernetes APIs using token</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/access-kube-api-using-token</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/access-kube-api-using-token</guid>
+    <description>Access kubernetes API using service accounts and tokens.</description>
+    <pubDate>Mon, 12 May 2025 12:31:00 GMT</pubDate>
+  </item><item>
+    <title>Node Authorization</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-authorization</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-authorization</guid>
+    <description>Node authorization implemented specially for kubelet for access kubernetes resources.</description>
+    <pubDate>Sun, 11 May 2025 16:08:00 GMT</pubDate>
+  </item><item>
+    <title>Attribute Based Access Control (ABAC)</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/attribute-based-access-control</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/attribute-based-access-control</guid>
+    <description>ABAC involves access control policies in policy file which contains users and their respective access controls.</description>
+    <pubDate>Sun, 11 May 2025 16:05:00 GMT</pubDate>
+  </item><item>
+    <title>kube-apiserver</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver</guid>
+    <description>kube-apiserver enables accessing kubernetes cluster using API requests.</description>
+    <pubDate>Sun, 11 May 2025 09:38:00 GMT</pubDate>
+  </item><item>
+    <title>Authorization in kube-apiserver</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-authorization</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-authorization</guid>
+    <description>Authorization in kube-apiserver has mainly four implementations viz, Node, ABAC, RBAC and Webhook.</description>
+    <pubDate>Sun, 11 May 2025 08:11:00 GMT</pubDate>
+  </item><item>
+    <title>API Groups</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-groups</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-groups</guid>
+    <description>API groups is a collection of APIs kube-apiserver provides. For example api for health, metrics, logs, resources etc. There are mainly two groups core apis and named apis. Core apis have resources like pods, namespaces, configmaps, etc. Named api group has resources like apps, networking, authentication, certificates etc. Named api group will be used mostly for future resources.</description>
+    <pubDate>Sun, 11 May 2025 07:51:00 GMT</pubDate>
+  </item><item>
+    <title>kubectl Proxy</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-proxy</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-proxy</guid>
+    <description>kubectl proxy command sets up the proxy server which uses kubeconfig and enables users to access kube-apiserver.</description>
+    <pubDate>Sun, 11 May 2025 07:44:00 GMT</pubDate>
+  </item><item>
     <title>KubeConfig</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubeconfig</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubeconfig</guid>
     <description>kubeconfig configuration file holds the information required for kubectl command to work. It holds information about various kubernetes clusters, users and contexts. Contexts are the links between what users are tied to what clusters. It also has a current-context field which specify which context is being used by kubectl in present.</description>
     <pubDate>Sat, 10 May 2025 07:42:00 GMT</pubDate>
-  </item><item>
-    <title>role-based-access-controls</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/role-based-access-controls</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/role-based-access-controls</guid>
-    <description></description>
-    <pubDate>Fri, 09 May 2025 19:21:00 GMT</pubDate>
-  </item><item>
-    <title>Basic Authentication using file in kube-apiserver</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/basic-auth-file-kube-apiserver</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/basic-auth-file-kube-apiserver</guid>
-    <description>Deprecated basic authentication using password and token files.</description>
-    <pubDate>Fri, 09 May 2025 19:07:00 GMT</pubDate>
-  </item><item>
-    <title>Auth Mechanism in kube-apiserver</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-auth</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-auth</guid>
-    <description>This note details about authentication mechanism implemented in kube-apiserver to enable external communication to kubernetes clusters. Authentication mechanisms like deprecated static password and token files, certificates, and identity services like LDAP.</description>
-    <pubDate>Fri, 09 May 2025 18:29:00 GMT</pubDate>
-  </item><item>
-    <title>Mount Secret as Volume</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/secret-volume</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/secret-volume</guid>
-    <description>This note details using volume of type secret. How can we mount secret volumes.</description>
-    <pubDate>Thu, 08 May 2025 18:46:00 GMT</pubDate>
-  </item><item>
-    <title>Volume of type Configmap</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/configmap-volume</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/configmap-volume</guid>
-    <description>This note details using volume of type configmap. How can we mount configmap volumes.</description>
-    <pubDate>Thu, 08 May 2025 16:35:00 GMT</pubDate>
-  </item><item>
-    <title>storage-in-statefulsets</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-in-statefulsets</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-in-statefulsets</guid>
-    <description>Storage in StatefulSets Persistent volume claim can be used for storage in StatefulSets.</description>
-    <pubDate>Wed, 07 May 2025 18:26:00 GMT</pubDate>
-  </item><item>
-    <title>headless-service</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/headless-service</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/headless-service</guid>
-    <description>Headless Service A headless service is a service with ClusterIP set to None.</description>
-    <pubDate>Tue, 06 May 2025 16:43:00 GMT</pubDate>
-  </item><item>
-    <title>statefulsets</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/statefulsets</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/statefulsets</guid>
-    <description>StatefulSets StatefulSets are similar to Deployment with features like Ordered creation and deletion of pods Unique network identity and name and other features.</description>
-    <pubDate>Tue, 06 May 2025 05:24:00 GMT</pubDate>
-  </item><item>
-    <title>storage-provisioning</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-provisioning</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/storage-provisioning</guid>
-    <description>Storage Provisioning There can be two types of provisioning, static dynamic Static where we create pv and setup all the volume configurations such as which volume implementation to use (volume plugin) etc, manually.</description>
-    <pubDate>Thu, 24 Apr 2025 06:55:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
