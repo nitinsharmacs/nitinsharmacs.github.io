@@ -599,8 +599,14 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/access-kube-api-using-token</loc>
     <lastmod>2025-05-12T12:31:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/admission-controller</loc>
+    <lastmod>2025-05-16T12:57:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-groups</loc>
     <lastmod>2025-05-11T07:51:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-versions</loc>
+    <lastmod>2025-05-19T18:28:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/architectural-components</loc>
     <lastmod>2025-02-21T06:26:00.000Z</lastmod>
@@ -638,6 +644,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/cronjob</loc>
     <lastmod>2025-04-14T15:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-admission-controllers</loc>
+    <lastmod>2025-05-19T17:38:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/deployment-strategy</loc>
     <lastmod>2025-03-16T17:38:00.000Z</lastmod>
   </url><url>
@@ -646,6 +655,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/deployments</loc>
     <lastmod>2025-02-25T17:12:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/etcd-server</loc>
+    <lastmod>2025-05-19T18:37:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/headless-service</loc>
     <lastmod>2025-05-06T16:43:00.000Z</lastmod>
@@ -691,6 +703,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/master-vs-worker-nodes</loc>
     <lastmod>2025-02-21T06:22:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/mutating-and-validating-admission-controller</loc>
+    <lastmod>2025-05-19T17:04:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespace</loc>
     <lastmod>2025-03-20T10:22:00.000Z</lastmod>

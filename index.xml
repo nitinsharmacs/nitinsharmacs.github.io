@@ -6,10 +6,40 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>cluster-role-and-bindings</title>
+    <title>etcd-server</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/etcd-server</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/etcd-server</guid>
+    <description></description>
+    <pubDate>Mon, 19 May 2025 18:37:00 GMT</pubDate>
+  </item><item>
+    <title>API Versions in Kubernetes APIs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-versions</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-versions</guid>
+    <description>There are mainly three types of API versions in kubernetes, v1 which is stable version, v1alpha1 and v1beta1.</description>
+    <pubDate>Mon, 19 May 2025 18:28:00 GMT</pubDate>
+  </item><item>
+    <title>Creating custom admission controllers</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-admission-controllers</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-admission-controllers</guid>
+    <description>Custom admission controller Kubernetes provides us a way to create our custom admission controllers.</description>
+    <pubDate>Mon, 19 May 2025 17:38:00 GMT</pubDate>
+  </item><item>
+    <title>Mutation and Validating Admission Controllers</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/mutating-and-validating-admission-controller</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/mutating-and-validating-admission-controller</guid>
+    <description>Mutation and validating admission controllers are two types of admission controllers where one changes the request and latter one just validates it.</description>
+    <pubDate>Mon, 19 May 2025 17:04:00 GMT</pubDate>
+  </item><item>
+    <title>Admission Controller</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/admission-controller</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/admission-controller</guid>
+    <description>Admission controller acts as a middleware which intercepts authenticated and authorized requests for resources persistence. These admission controllers are required for kubernetes to properly function.</description>
+    <pubDate>Fri, 16 May 2025 12:57:00 GMT</pubDate>
+  </item><item>
+    <title>Cluster Role and Bindings</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/cluster-role-and-bindings</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/cluster-role-and-bindings</guid>
-    <description></description>
+    <description>Cluster scope role and bindings to provide access to resources across namespaces and at cluster level.</description>
     <pubDate>Mon, 12 May 2025 14:25:00 GMT</pubDate>
   </item><item>
     <title>Namespaced Role and RoleBinding</title>
@@ -35,36 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/attribute-based-access-control</guid>
     <description>ABAC involves access control policies in policy file which contains users and their respective access controls.</description>
     <pubDate>Sun, 11 May 2025 16:05:00 GMT</pubDate>
-  </item><item>
-    <title>kube-apiserver</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver</guid>
-    <description>kube-apiserver enables accessing kubernetes cluster using API requests.</description>
-    <pubDate>Sun, 11 May 2025 09:38:00 GMT</pubDate>
-  </item><item>
-    <title>Authorization in kube-apiserver</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-authorization</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kube-apiserver-authorization</guid>
-    <description>Authorization in kube-apiserver has mainly four implementations viz, Node, ABAC, RBAC and Webhook.</description>
-    <pubDate>Sun, 11 May 2025 08:11:00 GMT</pubDate>
-  </item><item>
-    <title>API Groups</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-groups</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-groups</guid>
-    <description>API groups is a collection of APIs kube-apiserver provides. For example api for health, metrics, logs, resources etc. There are mainly two groups core apis and named apis. Core apis have resources like pods, namespaces, configmaps, etc. Named api group has resources like apps, networking, authentication, certificates etc. Named api group will be used mostly for future resources.</description>
-    <pubDate>Sun, 11 May 2025 07:51:00 GMT</pubDate>
-  </item><item>
-    <title>kubectl Proxy</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-proxy</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-proxy</guid>
-    <description>kubectl proxy command sets up the proxy server which uses kubeconfig and enables users to access kube-apiserver.</description>
-    <pubDate>Sun, 11 May 2025 07:44:00 GMT</pubDate>
-  </item><item>
-    <title>KubeConfig</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubeconfig</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubeconfig</guid>
-    <description>kubeconfig configuration file holds the information required for kubectl command to work. It holds information about various kubernetes clusters, users and contexts. Contexts are the links between what users are tied to what clusters. It also has a current-context field which specify which context is being used by kubectl in present.</description>
-    <pubDate>Sat, 10 May 2025 07:42:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
