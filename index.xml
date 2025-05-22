@@ -6,6 +6,48 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>custom-resource-controller</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-resource-controller</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-resource-controller</guid>
+    <description></description>
+    <pubDate>Thu, 22 May 2025 19:12:00 GMT</pubDate>
+  </item><item>
+    <title>Custom Resource Definition</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-resource-definition</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-resource-definition</guid>
+    <description>Custom Resource Definition Custom Resource Definition is the feature of kubernetes where it allows us to create custom resources which do not exist in kubernetes.</description>
+    <pubDate>Thu, 22 May 2025 18:18:00 GMT</pubDate>
+  </item><item>
+    <title>Singleton class using Metaclas</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/singleton-class-using-metaclass</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/singleton-class-using-metaclass</guid>
+    <description>Singleton class using metaclass</description>
+    <pubDate>Wed, 21 May 2025 12:15:00 GMT</pubDate>
+  </item><item>
+    <title>Metaclass</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/metaclass</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/metaclass</guid>
+    <description>Metaclass type is the class which all classes derive. It is responsible for the creation for the class. Metaclasses are rarely used. If we want to customize creation of classes, we would need custom metaclass.</description>
+    <pubDate>Wed, 21 May 2025 09:59:00 GMT</pubDate>
+  </item><item>
+    <title>Create Class Dynamically</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/create-class-dynamically</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/create-class-dynamically</guid>
+    <description>Classes are created using type() which takes three parameters, name, bases and namespace. type is metaclass which all classes derive.</description>
+    <pubDate>Wed, 21 May 2025 09:32:00 GMT</pubDate>
+  </item><item>
+    <title>kubectl convert</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-convert</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-convert</guid>
+    <description>Convert resource file to different api version using kubectl convert command. This is a plugin that needs to be installed separately.</description>
+    <pubDate>Tue, 20 May 2025 16:21:00 GMT</pubDate>
+  </item><item>
+    <title>__init__ vs __new__ in Python</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/init-vs-new</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/init-vs-new</guid>
+    <description>__new__ creates the class instance and __init__ setups the attributes on the instance. __new__ is called first and then __init__ is called where output of __new__ is given to __init__.</description>
+    <pubDate>Tue, 20 May 2025 12:09:00 GMT</pubDate>
+  </item><item>
     <title>etcd-server</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/etcd-server</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/etcd-server</guid>
@@ -23,48 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-admission-controllers</guid>
     <description>Custom admission controller Kubernetes provides us a way to create our custom admission controllers.</description>
     <pubDate>Mon, 19 May 2025 17:38:00 GMT</pubDate>
-  </item><item>
-    <title>Mutation and Validating Admission Controllers</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/mutating-and-validating-admission-controller</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/mutating-and-validating-admission-controller</guid>
-    <description>Mutation and validating admission controllers are two types of admission controllers where one changes the request and latter one just validates it.</description>
-    <pubDate>Mon, 19 May 2025 17:04:00 GMT</pubDate>
-  </item><item>
-    <title>Admission Controller</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/admission-controller</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/admission-controller</guid>
-    <description>Admission controller acts as a middleware which intercepts authenticated and authorized requests for resources persistence. These admission controllers are required for kubernetes to properly function.</description>
-    <pubDate>Fri, 16 May 2025 12:57:00 GMT</pubDate>
-  </item><item>
-    <title>Cluster Role and Bindings</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/cluster-role-and-bindings</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/cluster-role-and-bindings</guid>
-    <description>Cluster scope role and bindings to provide access to resources across namespaces and at cluster level.</description>
-    <pubDate>Mon, 12 May 2025 14:25:00 GMT</pubDate>
-  </item><item>
-    <title>Namespaced Role and RoleBinding</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespaced-role-and-bindings</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/namespaced-role-and-bindings</guid>
-    <description>Role and RoleBinding is used to create roles and bindings in particular namespaces.</description>
-    <pubDate>Mon, 12 May 2025 14:21:00 GMT</pubDate>
-  </item><item>
-    <title>Access kubernetes APIs using token</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/access-kube-api-using-token</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/access-kube-api-using-token</guid>
-    <description>Access kubernetes API using service accounts and tokens.</description>
-    <pubDate>Mon, 12 May 2025 12:31:00 GMT</pubDate>
-  </item><item>
-    <title>Node Authorization</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-authorization</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/node-authorization</guid>
-    <description>Node authorization implemented specially for kubelet for access kubernetes resources.</description>
-    <pubDate>Sun, 11 May 2025 16:08:00 GMT</pubDate>
-  </item><item>
-    <title>Attribute Based Access Control (ABAC)</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/attribute-based-access-control</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/attribute-based-access-control</guid>
-    <description>ABAC involves access control policies in policy file which contains users and their respective access controls.</description>
-    <pubDate>Sun, 11 May 2025 16:05:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
