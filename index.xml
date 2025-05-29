@@ -6,10 +6,46 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>custom-resource-controller</title>
+    <title>Bridge pattern</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/bridge-pattern</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/bridge-pattern</guid>
+    <description>Bridge pattern</description>
+    <pubDate>Thu, 29 May 2025 12:00:00 GMT</pubDate>
+  </item><item>
+    <title>Adapter Pattern</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/adapter-pattern</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/adapter-pattern</guid>
+    <description>Adapter Pattern</description>
+    <pubDate>Thu, 29 May 2025 11:30:00 GMT</pubDate>
+  </item><item>
+    <title>composition-over-inheritance</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/composition-over-inheritance</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/composition-over-inheritance</guid>
+    <description>Subclass Explosion Creation of several subclasses by combining different classes.</description>
+    <pubDate>Thu, 29 May 2025 11:22:00 GMT</pubDate>
+  </item><item>
+    <title>Install Helm Charts</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/helm/install-helm-charts</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/helm/install-helm-charts</guid>
+    <description>Helm charts can be installed using helm install command. Each install requires a release and same chart can be installed multiple times with different release.</description>
+    <pubDate>Tue, 27 May 2025 18:34:00 GMT</pubDate>
+  </item><item>
+    <title>Helm Chart</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/helm/helm-chart</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/helm/helm-chart</guid>
+    <description>Helm chart is combining template and values where templates are kubernetes resource files with values placeholders and these placeholders get populated from the values.yaml file provided.</description>
+    <pubDate>Tue, 27 May 2025 18:19:00 GMT</pubDate>
+  </item><item>
+    <title>Helm</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/helm/helm</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/helm/helm</guid>
+    <description>Helm is a tool to manage kubernetes resource files. It packages the resource files in projects. These packages can then be installed and run using helm. It is a package manager for kubernetes.</description>
+    <pubDate>Mon, 26 May 2025 18:18:00 GMT</pubDate>
+  </item><item>
+    <title>Custom Resource Controller</title>
     <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-resource-controller</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-resource-controller</guid>
-    <description></description>
+    <description>A custom resource controller is required to operate on custom resources. Solely creating custom resource does not mean anything. It requires a controller to operator on custom resource to give some meaningful business.</description>
     <pubDate>Thu, 22 May 2025 19:12:00 GMT</pubDate>
   </item><item>
     <title>Custom Resource Definition</title>
@@ -29,42 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/CPython/metaclass</guid>
     <description>Metaclass type is the class which all classes derive. It is responsible for the creation for the class. Metaclasses are rarely used. If we want to customize creation of classes, we would need custom metaclass.</description>
     <pubDate>Wed, 21 May 2025 09:59:00 GMT</pubDate>
-  </item><item>
-    <title>Create Class Dynamically</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/create-class-dynamically</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/create-class-dynamically</guid>
-    <description>Classes are created using type() which takes three parameters, name, bases and namespace. type is metaclass which all classes derive.</description>
-    <pubDate>Wed, 21 May 2025 09:32:00 GMT</pubDate>
-  </item><item>
-    <title>kubectl convert</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-convert</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/kubectl-convert</guid>
-    <description>Convert resource file to different api version using kubectl convert command. This is a plugin that needs to be installed separately.</description>
-    <pubDate>Tue, 20 May 2025 16:21:00 GMT</pubDate>
-  </item><item>
-    <title>__init__ vs __new__ in Python</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/init-vs-new</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/init-vs-new</guid>
-    <description>__new__ creates the class instance and __init__ setups the attributes on the instance. __new__ is called first and then __init__ is called where output of __new__ is given to __init__.</description>
-    <pubDate>Tue, 20 May 2025 12:09:00 GMT</pubDate>
-  </item><item>
-    <title>etcd-server</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/etcd-server</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/etcd-server</guid>
-    <description></description>
-    <pubDate>Mon, 19 May 2025 18:37:00 GMT</pubDate>
-  </item><item>
-    <title>API Versions in Kubernetes APIs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-versions</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/api-versions</guid>
-    <description>There are mainly three types of API versions in kubernetes, v1 which is stable version, v1alpha1 and v1beta1.</description>
-    <pubDate>Mon, 19 May 2025 18:28:00 GMT</pubDate>
-  </item><item>
-    <title>Creating custom admission controllers</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-admission-controllers</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/custom-admission-controllers</guid>
-    <description>Custom admission controller Kubernetes provides us a way to create our custom admission controllers.</description>
-    <pubDate>Mon, 19 May 2025 17:38:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
