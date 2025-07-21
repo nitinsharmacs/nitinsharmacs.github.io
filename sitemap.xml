@@ -422,6 +422,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/CPython/gil</loc>
     <lastmod>2024-04-21T06:14:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/indexable-class</loc>
+    <lastmod>2025-06-17T13:49:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/CPython/init-vs-new</loc>
     <lastmod>2025-05-20T12:09:00.000Z</lastmod>
   </url><url>
@@ -439,6 +442,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/CPython/memory-management</loc>
     <lastmod>2024-04-22T03:49:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/CPython/metaclass-(1)</loc>
+    <lastmod>2025-05-21T09:59:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/CPython/metaclass</loc>
     <lastmod>2025-05-21T09:59:00.000Z</lastmod>
@@ -502,6 +508,12 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/conda/export</loc>
     <lastmod>2024-09-29T07:40:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</loc>
+    <lastmod>2025-07-17T13:36:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/cryptography/encrypt-decrypt-using-gpg</loc>
+    <lastmod>2025-06-06T10:51:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/dask/chunks</loc>
     <lastmod>2024-05-15T09:28:00.000Z</lastmod>
@@ -599,11 +611,26 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/bridge-pattern</loc>
     <lastmod>2025-05-29T12:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/composite-pattern</loc>
+    <lastmod>2025-06-17T06:44:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/composition-over-inheritance</loc>
     <lastmod>2025-05-29T11:22:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/decorator-pattern</loc>
+    <lastmod>2025-06-17T11:51:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/factory-method</loc>
     <lastmod>2025-05-20T10:53:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/flyweight-pattern</loc>
+    <lastmod>2025-06-06T09:23:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</loc>
+    <lastmod>2025-06-17T13:02:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</loc>
+    <lastmod>2025-06-17T13:02:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/prebound-method-pattern</loc>
     <lastmod>2025-06-06T06:05:00.000Z</lastmod>
@@ -902,6 +929,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/datatypes</loc>
     <lastmod>2024-09-17T12:53:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/einsum</loc>
+    <lastmod>2025-07-16T08:26:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/fancy-indexing</loc>
     <lastmod>2024-09-17T14:12:00.000Z</lastmod>
   </url><url>
@@ -934,6 +964,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/newaxis</loc>
     <lastmod>2024-08-27T13:28:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</loc>
+    <lastmod>2025-07-19T08:15:13.192Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/grids-in-numpy</loc>
     <lastmod>2024-10-04T12:44:27.250Z</lastmod>
@@ -970,6 +1003,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/strides</loc>
     <lastmod>2024-09-27T09:04:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/todo</loc>
+    <lastmod>2025-07-11T07:30:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/transpose</loc>
     <lastmod>2024-06-22T09:57:00.000Z</lastmod>
@@ -1036,6 +1072,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/xarray/map_blocks</loc>
     <lastmod>2024-09-11T14:20:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/xarray/todo</loc>
+    <lastmod>2025-07-11T07:20:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/xarray/xarray-so-far</loc>
     <lastmod>2024-05-01T08:34:00.000Z</lastmod>

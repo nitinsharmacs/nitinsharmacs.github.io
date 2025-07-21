@@ -6,65 +6,65 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Prebound Method Pattern</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/prebound-method-pattern</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/prebound-method-pattern</guid>
-    <description>Prebound method pattern is a native to Python design pattern where class instance bounded method is assigned to name in module namespace.</description>
-    <pubDate>Fri, 06 Jun 2025 06:05:00 GMT</pubDate>
+    <title>einsum</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</guid>
+    <description>import numpy as np a = np.array([1, 2, 3]) b = np.array([4, 5, 6]) A = np.array([ [1, 2], [3, 4], ]) B = np.array([ [5, 6], [7, 8], ]) Matrix multiplication print(a @ b) print(A @ B) 32 [[19 22] [43 50]] print(np.einsum(&quot;i,i&quot;, a, b)) print(np.einsum(&quot;ij,jk-&gt;ik&quot;, A, B)) 32 [[19...</description>
+    <pubDate>Sat, 19 Jul 2025 08:15:13 GMT</pubDate>
   </item><item>
-    <title>Downward API Volume</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/downward-api-volume</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/downward-api-volume</guid>
-    <description>Downward API Volume type for exposing pod and containers information to running containers.</description>
-    <pubDate>Thu, 05 Jun 2025 17:44:00 GMT</pubDate>
+    <title>garbage-collection</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</guid>
+    <description> roots are the objects which can be referenced directly without going through some other objects.</description>
+    <pubDate>Thu, 17 Jul 2025 13:36:00 GMT</pubDate>
   </item><item>
-    <title>Downward API - Environment Variables</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/downward-api-environment-vars</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/downward-api-environment-vars</guid>
-    <description>Exposing pod and containers fields to containers running inside using environment variables with downward api.</description>
-    <pubDate>Thu, 05 Jun 2025 17:19:00 GMT</pubDate>
+    <title>Numpy einsum</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/einsum</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/einsum</guid>
+    <description>Numpy einsum.</description>
+    <pubDate>Wed, 16 Jul 2025 08:26:00 GMT</pubDate>
   </item><item>
-    <title>Downward API</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/downward-api</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/downward-api</guid>
-    <description>Downward API to provide Pod and Containers fields to containers inside pod. There are only two possible ways to do so with environment variables and volume.</description>
-    <pubDate>Thu, 05 Jun 2025 13:59:00 GMT</pubDate>
+    <title>todo</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/todo</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/todo</guid>
+    <description>todo np.einsum [ ] .</description>
+    <pubDate>Fri, 11 Jul 2025 07:30:00 GMT</pubDate>
   </item><item>
-    <title>Duck Typing in Python</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/duck-typing-in-python</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/duck-typing-in-python</guid>
-    <description>Duck Typing in python</description>
-    <pubDate>Thu, 05 Jun 2025 11:59:00 GMT</pubDate>
+    <title>todo</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/todo</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/todo</guid>
+    <description>todo xr.swap_axis .</description>
+    <pubDate>Fri, 11 Jul 2025 07:20:00 GMT</pubDate>
   </item><item>
-    <title>Mixin in Python</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/mixin-in-python</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/mixin-in-python</guid>
-    <description>Mixin in Python programming language.</description>
-    <pubDate>Thu, 05 Jun 2025 08:46:00 GMT</pubDate>
+    <title>Indexable Class</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/CPython/indexable-class</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/indexable-class</guid>
+    <description>Class can be made indexable by implementing __getitem__ method.</description>
+    <pubDate>Tue, 17 Jun 2025 13:49:00 GMT</pubDate>
   </item><item>
-    <title>Use ServiceAccount Token inside Pod</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/service-account-token-in-pod</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/service-account-token-in-pod</guid>
-    <description>We can mount service account token inside pod using projected volume. Service accounted gets automatically created and mounted inside pod at defined path.</description>
-    <pubDate>Tue, 03 Jun 2025 18:47:00 GMT</pubDate>
+    <title>Iterator Pattern</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</guid>
+    <description>Iterator design pattern.</description>
+    <pubDate>Tue, 17 Jun 2025 13:02:00 GMT</pubDate>
   </item><item>
-    <title>Projected Volume</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/kubernetes/projected-volume</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/kubernetes/projected-volume</guid>
-    <description>Projected Volume allows to mount different sources volumes. Such as mounting secrets, config maps, etc using a single volume.</description>
-    <pubDate>Tue, 03 Jun 2025 18:39:00 GMT</pubDate>
+    <title>Iterator Pattern</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</guid>
+    <description>Iterator design pattern.</description>
+    <pubDate>Tue, 17 Jun 2025 13:02:00 GMT</pubDate>
   </item><item>
-    <title>method-resolution-order</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/method-resolution-order</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/method-resolution-order</guid>
-    <description></description>
-    <pubDate>Mon, 02 Jun 2025 14:16:00 GMT</pubDate>
+    <title>Decorator Pattern</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/decorator-pattern</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/decorator-pattern</guid>
+    <description>Decorator pattern lets wrap the original instance, does some work and then calls the actual method of instance when the method is invoked.</description>
+    <pubDate>Tue, 17 Jun 2025 11:51:00 GMT</pubDate>
   </item><item>
-    <title>MRO in Multiple Inheritance</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/mro-in-multiple-inheritance</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/mro-in-multiple-inheritance</guid>
-    <description>MRO in multiple inheritance MRO (method resolution order) determines which call happens in case of multiple inheritance.</description>
-    <pubDate>Mon, 02 Jun 2025 14:13:00 GMT</pubDate>
+    <title>Composite Pattern</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/composite-pattern</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/composite-pattern</guid>
+    <description>Composite pattern with examples in python</description>
+    <pubDate>Tue, 17 Jun 2025 06:44:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
