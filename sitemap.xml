@@ -512,6 +512,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</loc>
     <lastmod>2025-07-17T13:36:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/readlogs</loc>
+    <lastmod>2025-07-23T12:12:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/cryptography/encrypt-decrypt-using-gpg</loc>
     <lastmod>2025-06-06T10:51:00.000Z</lastmod>
   </url><url>
@@ -625,9 +628,6 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/flyweight-pattern</loc>
     <lastmod>2025-06-06T09:23:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</loc>
-    <lastmod>2025-06-17T13:02:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</loc>
     <lastmod>2025-06-17T13:02:00.000Z</lastmod>
@@ -965,6 +965,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/newaxis</loc>
     <lastmod>2024-08-27T13:28:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum-exercises</loc>
+    <lastmod>2025-08-01T07:11:34.287Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</loc>
     <lastmod>2025-07-19T08:15:13.192Z</lastmod>
   </url><url>
@@ -1015,6 +1018,111 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/numpy/view</loc>
     <lastmod>2024-04-30T09:11:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/Scala</loc>
+    <lastmod>2024-09-27T06:28:45.895Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/apply-unapply</loc>
+    <lastmod>2024-09-27T06:28:46.031Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/call-by-name-and-value</loc>
+    <lastmod>2024-09-27T06:28:45.870Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/case-classes</loc>
+    <lastmod>2024-09-27T06:28:45.864Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/classes</loc>
+    <lastmod>2024-09-27T06:28:45.942Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/companion-objects</loc>
+    <lastmod>2024-09-27T06:28:45.869Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/concurrency/concurrency</loc>
+    <lastmod>2024-09-27T06:28:46.007Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/concurrency/execution-context</loc>
+    <lastmod>2024-09-27T06:28:45.981Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/concurrency/executor-service</loc>
+    <lastmod>2024-09-27T06:28:45.985Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/concurrency/future</loc>
+    <lastmod>2024-09-27T06:28:45.986Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/concurrency/naming-a-thread</loc>
+    <lastmod>2024-09-27T06:28:45.987Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/context-bounds</loc>
+    <lastmod>2024-09-27T06:28:45.897Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/context-parameters-in-detail</loc>
+    <lastmod>2024-09-27T06:28:46.061Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/context-parameters</loc>
+    <lastmod>2024-09-27T06:28:45.919Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/covariance</loc>
+    <lastmod>2024-09-27T06:28:46.058Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/enum</loc>
+    <lastmod>2024-09-27T06:28:45.922Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/extension-methods</loc>
+    <lastmod>2024-09-27T06:28:45.895Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/generics</loc>
+    <lastmod>2024-09-27T06:28:45.893Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/given-imports</loc>
+    <lastmod>2024-09-27T06:28:46.059Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/given-instances</loc>
+    <lastmod>2024-09-27T06:28:45.980Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/implementing-type-classes</loc>
+    <lastmod>2024-09-27T06:28:46.034Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/implicit-conversion</loc>
+    <lastmod>2024-09-27T06:28:45.866Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/method-vs-function</loc>
+    <lastmod>2024-09-27T06:28:46.062Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/methods</loc>
+    <lastmod>2024-09-27T06:28:46.008Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/misc</loc>
+    <lastmod>2024-09-27T06:28:46.056Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/packages-imports</loc>
+    <lastmod>2024-09-27T06:28:45.943Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/pattern-matching</loc>
+    <lastmod>2024-09-27T06:28:45.918Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/scala-sbt-setup</loc>
+    <lastmod>2024-09-27T06:28:45.943Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/scala-session</loc>
+    <lastmod>2024-09-27T06:28:46.033Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/scala3</loc>
+    <lastmod>2024-09-27T06:28:46.035Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/syntactic-sugars</loc>
+    <lastmod>2024-09-27T06:28:46.031Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/todo</loc>
+    <lastmod>2024-09-27T06:28:45.978Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/traits</loc>
+    <lastmod>2024-09-27T06:28:45.863Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/upper-bound</loc>
+    <lastmod>2024-09-27T06:28:45.865Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/scala/variance</loc>
+    <lastmod>2024-09-27T06:28:46.060Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/shell-commands/arp</loc>
     <lastmod>2025-03-16T17:27:00.000Z</lastmod>

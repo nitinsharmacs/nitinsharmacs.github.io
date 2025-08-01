@@ -6,65 +6,65 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>einsum-exercises</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum-exercises</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum-exercises</guid>
+    <description><![CDATA[ import numpy as np Exercises 1. ]]></description>
+    <pubDate>Fri, 01 Aug 2025 07:11:34 GMT</pubDate>
+  </item><item>
+    <title>readlogs</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/readlogs</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/readlogs</guid>
+    <description><![CDATA[ 2025-07-23 Map of territory scanning or lexing, or lexing analysis is to convert program string into tokens parsing is to add programming grammer to the tokens. ]]></description>
+    <pubDate>Wed, 23 Jul 2025 12:12:00 GMT</pubDate>
+  </item><item>
     <title>einsum</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</guid>
-    <description>import numpy as np a = np.array([1, 2, 3]) b = np.array([4, 5, 6]) A = np.array([ [1, 2], [3, 4], ]) B = np.array([ [5, 6], [7, 8], ]) Matrix multiplication print(a @ b) print(A @ B) 32 [[19 22] [43 50]] print(np.einsum(&quot;i,i&quot;, a, b)) print(np.einsum(&quot;ij,jk-&gt;ik&quot;, A, B)) 32 [[19...</description>
+    <description><![CDATA[ import numpy as np a = np.array([1, 2, 3]) b = np.array([4, 5, 6]) A = np.array([ [1, 2], [3, 4], ]) B = np.array([ [5, 6], [7, 8], ]) Matrix multiplication print(a @ b) print(A @ B) 32 [[19 22] [43 50]] print(np.einsum(&quot;i,i&quot;, a, b)) print(np.einsum(&quot;ij,jk-&gt;ik&quot;, A, B)) 32 [[19... ]]></description>
     <pubDate>Sat, 19 Jul 2025 08:15:13 GMT</pubDate>
   </item><item>
     <title>garbage-collection</title>
     <link>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</guid>
-    <description> roots are the objects which can be referenced directly without going through some other objects.</description>
+    <description><![CDATA[  roots are the objects which can be referenced directly without going through some other objects. ]]></description>
     <pubDate>Thu, 17 Jul 2025 13:36:00 GMT</pubDate>
   </item><item>
     <title>Numpy einsum</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/einsum</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/einsum</guid>
-    <description>Numpy einsum.</description>
+    <description><![CDATA[ Numpy einsum. ]]></description>
     <pubDate>Wed, 16 Jul 2025 08:26:00 GMT</pubDate>
   </item><item>
     <title>todo</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/todo</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/todo</guid>
-    <description>todo np.einsum [ ] .</description>
+    <description><![CDATA[ todo np.einsum [ ] . ]]></description>
     <pubDate>Fri, 11 Jul 2025 07:30:00 GMT</pubDate>
   </item><item>
     <title>todo</title>
     <link>https://nitinsharmacs.github.io/notes/tech/xarray/todo</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/xarray/todo</guid>
-    <description>todo xr.swap_axis .</description>
+    <description><![CDATA[ todo xr.swap_axis . ]]></description>
     <pubDate>Fri, 11 Jul 2025 07:20:00 GMT</pubDate>
   </item><item>
     <title>Indexable Class</title>
     <link>https://nitinsharmacs.github.io/notes/tech/CPython/indexable-class</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/CPython/indexable-class</guid>
-    <description>Class can be made indexable by implementing __getitem__ method.</description>
+    <description><![CDATA[ Class can be made indexable by implementing __getitem__ method. ]]></description>
     <pubDate>Tue, 17 Jun 2025 13:49:00 GMT</pubDate>
-  </item><item>
-    <title>Iterator Pattern</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</guid>
-    <description>Iterator design pattern.</description>
-    <pubDate>Tue, 17 Jun 2025 13:02:00 GMT</pubDate>
   </item><item>
     <title>Iterator Pattern</title>
     <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</guid>
-    <description>Iterator design pattern.</description>
+    <description><![CDATA[ Iterator design pattern. ]]></description>
     <pubDate>Tue, 17 Jun 2025 13:02:00 GMT</pubDate>
   </item><item>
     <title>Decorator Pattern</title>
     <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/decorator-pattern</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/decorator-pattern</guid>
-    <description>Decorator pattern lets wrap the original instance, does some work and then calls the actual method of instance when the method is invoked.</description>
+    <description><![CDATA[ Decorator pattern lets wrap the original instance, does some work and then calls the actual method of instance when the method is invoked. ]]></description>
     <pubDate>Tue, 17 Jun 2025 11:51:00 GMT</pubDate>
-  </item><item>
-    <title>Composite Pattern</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/composite-pattern</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/composite-pattern</guid>
-    <description>Composite pattern with examples in python</description>
-    <pubDate>Tue, 17 Jun 2025 06:44:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
