@@ -6,29 +6,35 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Object Prototype</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/vanilla-js/prototype</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/vanilla-js/prototype</guid>
+    <description><![CDATA[ Prototype is a mechanism using which an object can inherit other objects. ]]></description>
+    <pubDate>Mon, 11 Aug 2025 10:35:00 GMT</pubDate>
+  </item><item>
+    <title>apply_ufunc</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/xarray/notebook/apply_ufunc</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/notebook/apply_ufunc</guid>
+    <description><![CDATA[ import numpy as np import xarray as xr import dask import dask.array as da xr.set_options(display_style=&quot;text&quot;) &lt;xarray.core.options.set_options at 0x77cabb853a60&gt; Create numpy based xarrays time = np.array([4.453656e09, 4.453656e09]) baseline = np.array([0, 1]) frequency = np.array(... ]]></description>
+    <pubDate>Wed, 06 Aug 2025 09:48:04 GMT</pubDate>
+  </item><item>
+    <title>Iterable and Iterator protocols</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/vanilla-js/iterable-and-iterator</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/vanilla-js/iterable-and-iterator</guid>
+    <description><![CDATA[ Iterable and Iterator protocols in Javascript. ]]></description>
+    <pubDate>Fri, 01 Aug 2025 16:44:00 GMT</pubDate>
+  </item><item>
     <title>einsum-exercises</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum-exercises</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum-exercises</guid>
     <description><![CDATA[ import numpy as np Exercises 1. ]]></description>
     <pubDate>Fri, 01 Aug 2025 07:11:34 GMT</pubDate>
   </item><item>
-    <title>readlogs</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/readlogs</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/readlogs</guid>
-    <description><![CDATA[ 2025-07-23 Map of territory scanning or lexing, or lexing analysis is to convert program string into tokens parsing is to add programming grammer to the tokens. ]]></description>
-    <pubDate>Wed, 23 Jul 2025 12:12:00 GMT</pubDate>
-  </item><item>
     <title>einsum</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/notebook/einsum</guid>
     <description><![CDATA[ import numpy as np a = np.array([1, 2, 3]) b = np.array([4, 5, 6]) A = np.array([ [1, 2], [3, 4], ]) B = np.array([ [5, 6], [7, 8], ]) Matrix multiplication print(a @ b) print(A @ B) 32 [[19 22] [43 50]] print(np.einsum(&quot;i,i&quot;, a, b)) print(np.einsum(&quot;ij,jk-&gt;ik&quot;, A, B)) 32 [[19... ]]></description>
     <pubDate>Sat, 19 Jul 2025 08:15:13 GMT</pubDate>
-  </item><item>
-    <title>garbage-collection</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/crafting-interpreters/garbage-collection</guid>
-    <description><![CDATA[  roots are the objects which can be referenced directly without going through some other objects. ]]></description>
-    <pubDate>Thu, 17 Jul 2025 13:36:00 GMT</pubDate>
   </item><item>
     <title>Numpy einsum</title>
     <link>https://nitinsharmacs.github.io/notes/tech/numpy/einsum</link>
@@ -55,16 +61,10 @@
     <pubDate>Tue, 17 Jun 2025 13:49:00 GMT</pubDate>
   </item><item>
     <title>Iterator Pattern</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern</guid>
+    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</guid>
     <description><![CDATA[ Iterator design pattern. ]]></description>
     <pubDate>Tue, 17 Jun 2025 13:02:00 GMT</pubDate>
-  </item><item>
-    <title>Decorator Pattern</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/decorator-pattern</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/decorator-pattern</guid>
-    <description><![CDATA[ Decorator pattern lets wrap the original instance, does some work and then calls the actual method of instance when the method is invoked. ]]></description>
-    <pubDate>Tue, 17 Jun 2025 11:51:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
