@@ -6,6 +6,24 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>descriptor</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/python/notebooks/descriptors/descriptor</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/python/notebooks/descriptors/descriptor</guid>
+    <description><![CDATA[ Descriptors Descriptors are objects with __get__, __set__, and __del__. These are used as class attributes. ]]></description>
+    <pubDate>Fri, 22 Aug 2025 10:15:36 GMT</pubDate>
+  </item><item>
+    <title>Descriptor</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/python/descriptor</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/python/descriptor</guid>
+    <description><![CDATA[ Descriptor in python. Create dynamic class attributes using descriptor. ]]></description>
+    <pubDate>Fri, 22 Aug 2025 07:03:00 GMT</pubDate>
+  </item><item>
+    <title>Demystify Classes</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/python/demystify-classes</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/python/demystify-classes</guid>
+    <description><![CDATA[ Demystify classes in python. Attribute lookups and how class and static method works ]]></description>
+    <pubDate>Thu, 21 Aug 2025 13:33:00 GMT</pubDate>
+  </item><item>
     <title>Object Prototype</title>
     <link>https://nitinsharmacs.github.io/notes/tech/vanilla-js/prototype</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/vanilla-js/prototype</guid>
@@ -47,24 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/numpy/todo</guid>
     <description><![CDATA[ todo np.einsum [ ] . ]]></description>
     <pubDate>Fri, 11 Jul 2025 07:30:00 GMT</pubDate>
-  </item><item>
-    <title>todo</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/xarray/todo</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/xarray/todo</guid>
-    <description><![CDATA[ todo xr.swap_axis . ]]></description>
-    <pubDate>Fri, 11 Jul 2025 07:20:00 GMT</pubDate>
-  </item><item>
-    <title>Indexable Class</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/CPython/indexable-class</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/CPython/indexable-class</guid>
-    <description><![CDATA[ Class can be made indexable by implementing __getitem__ method. ]]></description>
-    <pubDate>Tue, 17 Jun 2025 13:49:00 GMT</pubDate>
-  </item><item>
-    <title>Iterator Pattern</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/design-patterns/iterator-pattern-(1)</guid>
-    <description><![CDATA[ Iterator design pattern. ]]></description>
-    <pubDate>Tue, 17 Jun 2025 13:02:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
