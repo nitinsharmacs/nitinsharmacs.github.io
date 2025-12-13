@@ -6,6 +6,36 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Access Google sheets in Javascript</title>
+    <link>https://nitinsharmacs.github.io/blogs/tech/programming/javascript/google-sheet-in-javascript</link>
+    <guid>https://nitinsharmacs.github.io/blogs/tech/programming/javascript/google-sheet-in-javascript</guid>
+    <description><![CDATA[ This blog talks about setting up a google client project and access google sheets in vanilla javascript. ]]></description>
+    <pubDate>Sat, 13 Dec 2025 09:51:00 GMT</pubDate>
+  </item><item>
+    <title>Install spack</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/spack/install-spack</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/spack/install-spack</guid>
+    <description><![CDATA[ git clone --depth=2 --branch=releases/v1.1 github.com/spack/spack.git ~/spack source ~/spack/share/spack/setup-env.sh # Ensure that this fine gcc@11.4 as compiler spack compiler find # You can remove any extra compilers found by above command # by running: # spack compiler rm &lt;compiler spec&gt; s... ]]></description>
+    <pubDate>Mon, 08 Dec 2025 06:11:00 GMT</pubDate>
+  </item><item>
+    <title>Slurm srun command</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/slurm/srun</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/slurm/srun</guid>
+    <description><![CDATA[ srun command is used to run task on node. It provides options to provide partition, nodes and other resources. ]]></description>
+    <pubDate>Tue, 28 Oct 2025 06:20:00 GMT</pubDate>
+  </item><item>
+    <title>one-definition Rule (ODR)</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/one-definition-rule</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/one-definition-rule</guid>
+    <description><![CDATA[ The one-definition rule (ODR) is a rule in C++ which contains three parts: In a file, each function, variable, type or template in a given scope should only have one definition. ]]></description>
+    <pubDate>Wed, 22 Oct 2025 15:58:00 GMT</pubDate>
+  </item><item>
+    <title>Header files in C++</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/header-files</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/header-files</guid>
+    <description><![CDATA[ Header files contain a bunch of forward declarations that can be used in multiple c++ source code. ]]></description>
+    <pubDate>Wed, 22 Oct 2025 15:21:00 GMT</pubDate>
+  </item><item>
     <title>Conditional Compilation in C++</title>
     <link>https://nitinsharmacs.github.io/notes/tech/c++/conditional-compilation</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/c++/conditional-compilation</guid>
@@ -18,7 +48,7 @@
     <description><![CDATA[ Macros are used to define identifiers which can then be replaced the text they represent. ]]></description>
     <pubDate>Wed, 22 Oct 2025 13:55:00 GMT</pubDate>
   </item><item>
-    <title>`#include` directive</title>
+    <title>#include directive</title>
     <link>https://nitinsharmacs.github.io/notes/tech/c++/include-directive</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/c++/include-directive</guid>
     <description><![CDATA[ When processor encounters #include directive, it replaces directive with the content of the included file. ]]></description>
@@ -35,36 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/c++/namespaces</guid>
     <description><![CDATA[ A namespace is a scope region which contains names. A namespace identifies where the particular name (a function, types etc). ]]></description>
     <pubDate>Tue, 21 Oct 2025 17:34:00 GMT</pubDate>
-  </item><item>
-    <title>Writing multiple code files</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/multiple-code-files</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/multiple-code-files</guid>
-    <description><![CDATA[ When we have code divided into multiple files, we need to forward declare the function in use and provide the file that contains the function definition while compiling the program. ]]></description>
-    <pubDate>Tue, 21 Oct 2025 14:23:00 GMT</pubDate>
-  </item><item>
-    <title>Variable Initialization and Assignment</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/variable-initialization-and-assignment</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/variable-initialization-and-assignment</guid>
-    <description><![CDATA[ Initialization is a processing assigning an initial value to a variable while declaring it. ]]></description>
-    <pubDate>Sun, 12 Oct 2025 18:48:00 GMT</pubDate>
-  </item><item>
-    <title>Objects and Variables in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/object-and-variables</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/object-and-variables</guid>
-    <description><![CDATA[ An object represents a region in the storage (RAM or CPU registers) that can be used to store values. ]]></description>
-    <pubDate>Sun, 12 Oct 2025 18:30:00 GMT</pubDate>
-  </item><item>
-    <title>Warning Configurations in Compiler</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/warning-configs-compiler</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/warning-configs-compiler</guid>
-    <description><![CDATA[ We can configure the compiler to show warning diagnostics for the programs so that we can make the program better. ]]></description>
-    <pubDate>Sun, 12 Oct 2025 17:02:00 GMT</pubDate>
-  </item><item>
-    <title>Compiler Extensions</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/compiler-extensions</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/compiler-extensions</guid>
-    <description><![CDATA[ Compiler extensions are compiler specific implementations. ]]></description>
-    <pubDate>Sun, 12 Oct 2025 16:48:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
