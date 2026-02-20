@@ -383,11 +383,20 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/build-configurations</loc>
     <lastmod>2025-10-12T15:45:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/compile-time-programming</loc>
+    <lastmod>2026-02-06T16:29:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/compiler-extensions</loc>
     <lastmod>2025-10-12T16:48:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/compiler-optimizations</loc>
+    <lastmod>2026-02-02T09:48:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/conditional-compilation</loc>
     <lastmod>2025-10-22T14:02:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/constant-expressions</loc>
+    <lastmod>2026-02-06T16:35:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/define-directive</loc>
     <lastmod>2025-10-22T13:55:00.000Z</lastmod>
@@ -409,6 +418,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/integral-types</loc>
     <lastmod>2026-01-16T17:22:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/io-manipulators</loc>
+    <lastmod>2026-02-19T14:33:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/multiple-code-files</loc>
     <lastmod>2025-10-21T14:23:00.000Z</lastmod>
@@ -433,6 +445,18 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/size_t-type</loc>
     <lastmod>2026-01-30T14:09:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/std-getline</loc>
+    <lastmod>2026-02-19T14:16:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/string-literals</loc>
+    <lastmod>2026-02-20T12:30:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/string-view</loc>
+    <lastmod>2026-02-20T13:53:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/strings</loc>
+    <lastmod>2026-02-19T14:07:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/type-conversion</loc>
     <lastmod>2026-01-30T19:18:00.000Z</lastmod>

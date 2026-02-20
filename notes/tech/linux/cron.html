@@ -131,7 +131,7 @@ pre:hover > .expand-button {
 # minute (0–59)
 </code></pre>
 <p>For example, scheduling a job every Monday at 4AM would look like this,</p>
-<pre><code>0 4 * * * echo Some work
+<pre><code>0 4 * * 1 echo Some work
 </code></pre>
 <p>We can specify <code>*/n</code> to specify <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">n</span><span class="mord mathnormal">t</span><span class="mord mathnormal">h</span></span></span></span> interval of time. For instance, every 5th minute can be specified as <code>*/5 * * * *</code>.</p>
 <p>Adding to this, specific time can also be specified using commas <code>,</code>  such <code>1,2,3</code>. For example, <code>*/2 2,4,6 * * *</code> means that to repeat every 2nd minute of second, fourth and sixth hour which is 02:02, 02:04, up until 06:60.</p>
