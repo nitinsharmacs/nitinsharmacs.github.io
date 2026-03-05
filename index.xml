@@ -6,6 +6,54 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Storage class specifiers in C++</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/storage-class-specifiers</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/storage-class-specifiers</guid>
+    <description><![CDATA[ &lt;To be added&gt;. ]]></description>
+    <pubDate>Thu, 05 Mar 2026 17:22:00 GMT</pubDate>
+  </item><item>
+    <title>Storage duration for an object in C++</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/storage-duration</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/storage-duration</guid>
+    <description><![CDATA[ Storage duration defines when and for how long an object will exist in the program life cycle. ]]></description>
+    <pubDate>Thu, 05 Mar 2026 17:15:00 GMT</pubDate>
+  </item><item>
+    <title>Static storage duration of objects in C++</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/static-storage-duration</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/static-storage-duration</guid>
+    <description><![CDATA[ An object having static storage duration means that its life time would be throughout the entire program. ]]></description>
+    <pubDate>Thu, 05 Mar 2026 14:02:00 GMT</pubDate>
+  </item><item>
+    <title>External Linkage Property for Identifiers in C++</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/external-linkage</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/external-linkage</guid>
+    <description><![CDATA[ External linkage is a property of an identifier that makes it visible to other translation units. ]]></description>
+    <pubDate>Thu, 05 Mar 2026 09:51:00 GMT</pubDate>
+  </item><item>
+    <title>Internal Linkage Property for Identifiers in C++</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/internal-linkage</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/internal-linkage</guid>
+    <description><![CDATA[ Internal linkage property for an identifier makes it visible to a single translation unit and not accessible from other translation units. ]]></description>
+    <pubDate>Tue, 03 Mar 2026 14:10:00 GMT</pubDate>
+  </item><item>
+    <title>Linkage</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/linkage</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/linkage</guid>
+    <description><![CDATA[ Linkage of objects in C++. Linkage determines if declaration of the identifier in different scopes refers to the same object or function. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 17:05:00 GMT</pubDate>
+  </item><item>
+    <title>Creating namespaces in C++</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/creating-namespaces</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/creating-namespaces</guid>
+    <description><![CDATA[ Creating namespaces in C++. We can use namespace keyword followed by name and block containing declarations and definitions. ]]></description>
+    <pubDate>Fri, 27 Feb 2026 14:11:00 GMT</pubDate>
+  </item><item>
+    <title>String view modification functions</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/string-view-methods</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/string-view-methods</guid>
+    <description><![CDATA[ String view provides remove_suffix and remove_prefix functions. ]]></description>
+    <pubDate>Tue, 24 Feb 2026 15:12:00 GMT</pubDate>
+  </item><item>
     <title>std::string_view in C++</title>
     <link>https://nitinsharmacs.github.io/notes/tech/c++/string-view</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/c++/string-view</guid>
@@ -17,54 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/c++/string-literals</guid>
     <description><![CDATA[ C++ has C-style string literals by default. ]]></description>
     <pubDate>Fri, 20 Feb 2026 12:30:00 GMT</pubDate>
-  </item><item>
-    <title>I/O manipulators in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/io-manipulators</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/io-manipulators</guid>
-    <description><![CDATA[ Input/Output manipulators in c++. ]]></description>
-    <pubDate>Thu, 19 Feb 2026 14:33:00 GMT</pubDate>
-  </item><item>
-    <title>Reading input using std::getline function</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/std-getline</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/std-getline</guid>
-    <description><![CDATA[ std::cin cannot read a line with whitespaces, for example John doe. It will only read John and doe remains in buffer for std::cin. ]]></description>
-    <pubDate>Thu, 19 Feb 2026 14:16:00 GMT</pubDate>
-  </item><item>
-    <title>Strings in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/strings</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/strings</guid>
-    <description><![CDATA[ std::string in C++. ]]></description>
-    <pubDate>Thu, 19 Feb 2026 14:07:00 GMT</pubDate>
-  </item><item>
-    <title>Constant Expressions in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/constant-expressions</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/constant-expressions</guid>
-    <description><![CDATA[ Constant expressions are composed of components that can be evaluated at compile time. For example, 2 + 1. ]]></description>
-    <pubDate>Fri, 06 Feb 2026 16:35:00 GMT</pubDate>
-  </item><item>
-    <title>Compile time programming in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/compile-time-programming</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/compile-time-programming</guid>
-    <description><![CDATA[ Compile time programming provides the features through which some of the code is evaluated at compile time. Constant expressions are such features. ]]></description>
-    <pubDate>Fri, 06 Feb 2026 16:29:00 GMT</pubDate>
-  </item><item>
-    <title>compiler-optimizations</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/compiler-optimizations</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/compiler-optimizations</guid>
-    <description><![CDATA[ Compile time optimizations follow as-if rule that says compiler can restructure the code without changing the behavior, to optimize the code. ]]></description>
-    <pubDate>Mon, 02 Feb 2026 09:48:00 GMT</pubDate>
-  </item><item>
-    <title>Type conversion in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/type-conversion</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/type-conversion</guid>
-    <description><![CDATA[ There are two types of type conversion: implicit and explicit conversions. Implicit conversions are done by the compiler. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 19:18:00 GMT</pubDate>
-  </item><item>
-    <title>size_t type</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/size_t-type</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/size_t-type</guid>
-    <description><![CDATA[ std::size_t is a unsigned integral type of the result of operators like sizeof. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 14:09:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
