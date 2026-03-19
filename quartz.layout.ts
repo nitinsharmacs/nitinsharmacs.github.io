@@ -19,6 +19,7 @@ export const sharedPageComponents: SharedLayout = {
         categoryId: "DIC_kwDOOnzFFc4C4xGj",
         // from data-lang
         lang: "en",
+        inputPosition: "top",
       },
     }),
   ],
