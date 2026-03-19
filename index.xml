@@ -6,10 +6,34 @@
       <description>Last 10 notes on bitPhile</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>using-declaration</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/using-declaration</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/using-declaration</guid>
+    <description><![CDATA[ Using using-declaration to create an unqualified alias for an qualified identifier in a namespace. ]]></description>
+    <pubDate>Mon, 09 Mar 2026 14:33:00 GMT</pubDate>
+  </item><item>
+    <title>using-directive</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/using-directive</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/using-directive</guid>
+    <description><![CDATA[ Using using-directive to get all identifiers defined inside a namespace. ]]></description>
+    <pubDate>Mon, 09 Mar 2026 14:31:00 GMT</pubDate>
+  </item><item>
+    <title>static keyword</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/static-keyword</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/static-keyword</guid>
+    <description><![CDATA[ static keyword provides different meanings based on the context and location of use. ]]></description>
+    <pubDate>Mon, 09 Mar 2026 09:51:00 GMT</pubDate>
+  </item><item>
+    <title>inline keyword</title>
+    <link>https://nitinsharmacs.github.io/notes/tech/c++/inline-keyword</link>
+    <guid>https://nitinsharmacs.github.io/notes/tech/c++/inline-keyword</guid>
+    <description><![CDATA[ inline keyword to make functions and variables inline. ]]></description>
+    <pubDate>Fri, 06 Mar 2026 16:43:00 GMT</pubDate>
+  </item><item>
     <title>Storage class specifiers in C++</title>
     <link>https://nitinsharmacs.github.io/notes/tech/c++/storage-class-specifiers</link>
     <guid>https://nitinsharmacs.github.io/notes/tech/c++/storage-class-specifiers</guid>
-    <description><![CDATA[ &lt;To be added&gt;. ]]></description>
+    <description><![CDATA[ Storage class specifiers are keyword used with identifier declaration to set their storage duration and linkage properties. ]]></description>
     <pubDate>Thu, 05 Mar 2026 17:22:00 GMT</pubDate>
   </item><item>
     <title>Storage duration for an object in C++</title>
@@ -41,30 +65,6 @@
     <guid>https://nitinsharmacs.github.io/notes/tech/c++/linkage</guid>
     <description><![CDATA[ Linkage of objects in C++. Linkage determines if declaration of the identifier in different scopes refers to the same object or function. ]]></description>
     <pubDate>Mon, 02 Mar 2026 17:05:00 GMT</pubDate>
-  </item><item>
-    <title>Creating namespaces in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/creating-namespaces</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/creating-namespaces</guid>
-    <description><![CDATA[ Creating namespaces in C++. We can use namespace keyword followed by name and block containing declarations and definitions. ]]></description>
-    <pubDate>Fri, 27 Feb 2026 14:11:00 GMT</pubDate>
-  </item><item>
-    <title>String view modification functions</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/string-view-methods</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/string-view-methods</guid>
-    <description><![CDATA[ String view provides remove_suffix and remove_prefix functions. ]]></description>
-    <pubDate>Tue, 24 Feb 2026 15:12:00 GMT</pubDate>
-  </item><item>
-    <title>std::string_view in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/string-view</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/string-view</guid>
-    <description><![CDATA[ String view in C++. String views are readonly access to strings. ]]></description>
-    <pubDate>Fri, 20 Feb 2026 13:53:00 GMT</pubDate>
-  </item><item>
-    <title>String literals in C++</title>
-    <link>https://nitinsharmacs.github.io/notes/tech/c++/string-literals</link>
-    <guid>https://nitinsharmacs.github.io/notes/tech/c++/string-literals</guid>
-    <description><![CDATA[ C++ has C-style string literals by default. ]]></description>
-    <pubDate>Fri, 20 Feb 2026 12:30:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
