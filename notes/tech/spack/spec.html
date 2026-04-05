@@ -120,12 +120,12 @@ pre:hover > .expand-button {
 <p>Specs are descriptors used to provide more information while installing spack packages. For example, package name, providing a specific version of the package using <code>@</code>, compiler using <code>%</code> and compiler options etc.</p>
 <pre><code>mpileaks @1.2:1.4 %gcc@4.7.5 +debug -qt target=x86_64 ^callpath @1.1 %gcc@4.7.2
 </code></pre>
-<p>Above command can be described as, install package <code>mpileaks</code> of version in between <code>1.2</code> and <code>1.4</code> built using <code>gcc</code> of version <code>4.7.5</code> for architecture <code>x86_64</code> with <code>debug</code> option enabled and <code>Qt</code>  option disabled. Additionally using dependency <code>callpath</code> of version <code>1.1</code> built using <code>gcc</code> of version <code>4.7.2</code>.</p>
+<p>Above command can be described as, install package <code>mpileaks</code> of version in between <code>1.2</code> and <code>1.4</code> built using <code>gcc</code> of version <code>4.7.5</code> for architecture <code>x86_64</code> with <code>debug</code> option enabled and <code>Qt</code> option disabled. Additionally, using dependency <code>callpath</code> of version <code>1.1</code> built using <code>gcc</code> of version <code>4.7.2</code>.</p>
 <p>Spec consists of following pieces.</p>
 <ol>
 <li>package name which is mandatory.</li>
 <li>version using <code>@</code> which works for both package and compiler.</li>
-<li><code>%</code> to specify the compiler for both package and dependencies. It sould come just after the package name and whatever dependencies.</li>
+<li><code>%</code> to specify the compiler for both package and dependencies. It should come just after the package name and whatever dependencies.</li>
 <li><code>+, -, or ~</code> variant specifiers.</li>
 <li><code>name=&lt;value></code> optional compiler flags.</li>
 <li><code>target=&lt;value></code> or <code>os=&lt;value></code> for architecture information.</li>

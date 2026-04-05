@@ -380,8 +380,14 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/aws/email-notification-lambda</loc>
     <lastmod>2024-02-14T07:13:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/attributes</loc>
+    <lastmod>2026-03-23T13:28:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/build-configurations</loc>
     <lastmod>2025-10-12T15:45:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/common-type</loc>
+    <lastmod>2026-04-05T16:12:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/compile-time-programming</loc>
     <lastmod>2026-02-06T16:29:00.000Z</lastmod>
@@ -392,6 +398,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/compiler-optimizations</loc>
     <lastmod>2026-02-02T09:48:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/compound-statements</loc>
+    <lastmod>2026-03-19T17:07:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/conditional-compilation</loc>
     <lastmod>2025-10-22T14:02:00.000Z</lastmod>
   </url><url>
@@ -401,11 +410,20 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/creating-namespaces</loc>
     <lastmod>2026-02-27T14:11:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/dangling-else-problem</loc>
+    <lastmod>2026-03-19T16:57:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/define-directive</loc>
     <lastmod>2025-10-22T13:55:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/east-const</loc>
     <lastmod>2026-01-30T13:04:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/exiting-programs</loc>
+    <lastmod>2026-03-24T16:47:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/explicit-type-conversion</loc>
+    <lastmod>2026-04-01T16:46:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/external-linkage</loc>
     <lastmod>2026-03-05T09:51:00.000Z</lastmod>
@@ -413,11 +431,17 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/fixed-width-integers</loc>
     <lastmod>2026-01-16T16:53:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/function-type-deductions</loc>
+    <lastmod>2026-04-05T15:47:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/header-files</loc>
     <lastmod>2025-10-22T15:21:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/header-guards</loc>
     <lastmod>2025-12-17T08:53:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/implicit-type-conversion</loc>
+    <lastmod>2026-03-28T08:31:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/include-directive</loc>
     <lastmod>2025-10-22T13:48:00.000Z</lastmod>
@@ -434,6 +458,9 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/io-manipulators</loc>
     <lastmod>2026-02-19T14:33:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/lambdas</loc>
+    <lastmod>2026-04-05T16:19:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/linkage</loc>
     <lastmod>2026-03-02T17:05:00.000Z</lastmod>
   </url><url>
@@ -442,6 +469,12 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/namespaces</loc>
     <lastmod>2025-10-21T17:34:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/numeric-conversions</loc>
+    <lastmod>2026-03-30T13:56:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/numeric-promotions</loc>
+    <lastmod>2026-03-29T16:11:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/object-and-variables</loc>
     <lastmod>2025-10-12T18:30:00.000Z</lastmod>
@@ -488,8 +521,20 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/strings</loc>
     <lastmod>2026-02-19T14:07:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/switch-fallthrough</loc>
+    <lastmod>2026-03-23T13:18:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/trailing-return-type-syntax</loc>
+    <lastmod>2026-04-05T15:58:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/type-alias</loc>
+    <lastmod>2026-04-05T08:17:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/type-conversion</loc>
     <lastmod>2026-01-30T19:18:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/type-deductions-using-auto</loc>
+    <lastmod>2026-04-05T09:10:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/using-declaration</loc>
     <lastmod>2026-03-09T14:33:00.000Z</lastmod>
@@ -502,6 +547,9 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/c++/warning-configs-compiler</loc>
     <lastmod>2025-10-12T17:02:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/c++/why-type-conversion-are-needed</loc>
+    <lastmod>2026-03-28T08:24:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/conda/export</loc>
     <lastmod>2024-09-29T07:40:00.000Z</lastmod>
@@ -1175,11 +1223,17 @@
     <loc>https://nitinsharmacs.github.io/notes/tech/slurm/srun</loc>
     <lastmod>2025-10-28T06:20:00.000Z</lastmod>
   </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/spack/concretization</loc>
+    <lastmod>2026-04-02T15:45:00.000Z</lastmod>
+  </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/spack/create-package-recipe</loc>
     <lastmod>2025-03-13T11:23:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/spack/dependencies-graph</loc>
     <lastmod>2025-03-11T13:32:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/spack/environment-views</loc>
+    <lastmod>2026-04-02T16:06:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/spack/find-command</loc>
     <lastmod>2025-03-11T13:15:00.000Z</lastmod>
@@ -1189,6 +1243,12 @@
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/spack/loading-unloading-packages</loc>
     <lastmod>2025-03-12T07:23:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/spack/reproducing-builds-with-environments</loc>
+    <lastmod>2026-04-03T09:08:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nitinsharmacs.github.io/notes/tech/spack/spack-environment</loc>
+    <lastmod>2026-04-02T15:32:00.000Z</lastmod>
   </url><url>
     <loc>https://nitinsharmacs.github.io/notes/tech/spack/spec</loc>
     <lastmod>2025-03-13T05:42:00.000Z</lastmod>
