@@ -11,6 +11,7 @@ function build() {
     cd ./quartz/
     npx quartz build -v --concurrency 4 --output ./build
     mv ./build/* ../public
+    cp ../BingSiteAuth.xml ../public
     cp ../googleb336269767bb6f1c.html ../public
     rmdir ./build
     cd ..
